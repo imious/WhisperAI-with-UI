@@ -1,0 +1,1284 @@
+1
+00:00:00,000 --> 00:00:05,360
+ Let's have a look at some cost estimation techniques.
+
+2
+00:00:05,360 --> 00:00:08,040
+ What we see here is also in the handbook.
+
+3
+00:00:08,040 --> 00:00:12,080
+ The simplest method for cost estimation probably is the per unit method.
+
+4
+00:00:12,080 --> 00:00:13,160
+ You see the formula there.
+
+5
+00:00:13,160 --> 00:00:16,839
+ We have a unit cost factor and a number of units.
+
+6
+00:00:16,839 --> 00:00:22,400
+ For instance, the cost of a house construction per liveable square foot is 150 dollars per
+
+7
+00:00:22,400 --> 00:00:25,240
+ square foot.
+
+8
+00:00:25,240 --> 00:00:27,440
+ The cost per parking space in a parking garage.
+
+9
+00:00:27,880 --> 00:00:32,320
+ The cost of construction is standard with suburban street per mile.
+
+10
+00:00:32,320 --> 00:00:36,079
+ So we have very rough calculations based on a unit cost.
+
+11
+00:00:36,079 --> 00:00:41,280
+ It's good for a first feasibility check, for instance.
+
+12
+00:00:41,280 --> 00:00:44,680
+ Well, simple examples.
+
+13
+00:00:44,680 --> 00:00:49,719
+ By the way, all the upcoming examples are pretty simple and straightforward.
+
+14
+00:00:49,719 --> 00:00:58,920
+ So here we have a manufacturing process for sections of high pressure gas pipes.
+
+15
+00:00:58,920 --> 00:01:03,079
+ And we know that a 20 percent estimate is acceptable.
+
+16
+00:01:03,079 --> 00:01:07,560
+ So that means that we don't have to go into very detailed cost estimation.
+
+17
+00:01:07,560 --> 00:01:10,519
+ So the unit cost is probably good enough.
+
+18
+00:01:10,519 --> 00:01:12,920
+ And then you see, well, what we need.
+
+19
+00:01:12,920 --> 00:01:17,879
+ We need materials, we need machinery tooling, we need labor for casting, for finishing,
+
+20
+00:01:17,879 --> 00:01:22,799
+ for some indirect labor, for the provision, for instance.
+
+21
+00:01:22,799 --> 00:01:25,879
+ We see the amount that we need in tons in hours.
+
+22
+00:01:25,879 --> 00:01:29,159
+ We see the unit cost per ton or per hour.
+
+23
+00:01:29,159 --> 00:01:35,239
+ And then we just have to multiply, of course, the amount in times the U, the cost, and then
+
+24
+00:01:35,239 --> 00:01:36,840
+ we make the sum.
+
+25
+00:01:36,840 --> 00:01:42,799
+ So it's a very simple, very rough method for making an estimate.
+
+26
+00:01:42,799 --> 00:01:49,120
+ So these are the cost indices or maybe the best known way of estimating costs, as they
+
+27
+00:01:49,120 --> 00:01:55,159
+ also appear in our daily life with the example of the consumer price index.
+
+28
+00:01:55,159 --> 00:01:56,319
+ So this is a cost index.
+
+29
+00:01:56,319 --> 00:01:58,560
+ It's a dimensionless number.
+
+30
+00:01:58,560 --> 00:02:03,439
+ It's the ratio of the cost of something today to its cost sometime in the past.
+
+31
+00:02:03,439 --> 00:02:10,560
+ So besides our daily life example, there are a lot of industrial examples like the CE or
+
+32
+00:02:10,560 --> 00:02:17,879
+ the Plant Cost Index for Chemical Engineering or the Marshall and Swift Index for Equipment.
+
+33
+00:02:17,879 --> 00:02:23,920
+ This is an example for the Consumption Price Index for Belgium.
+
+34
+00:02:23,920 --> 00:02:25,439
+ You can look it up if you want.
+
+35
+00:02:25,439 --> 00:02:32,240
+ You have the website where you can find the information.
+
+36
+00:02:32,240 --> 00:02:35,319
+ This is an example from the US.
+
+37
+00:02:35,359 --> 00:02:43,719
+ I give it here because these systems are carefully monitored and if necessary, they are adjusted.
+
+38
+00:02:43,719 --> 00:02:51,599
+ So then the new system for the consumer price index is described carefully so that everybody
+
+39
+00:02:51,599 --> 00:02:56,519
+ knows exactly what is in it and what is not.
+
+40
+00:02:56,519 --> 00:02:59,319
+ This is an example from some cost indices taken from the book.
+
+41
+00:02:59,319 --> 00:03:01,560
+ We have the Chemical Engineering Plant Index.
+
+42
+00:03:01,560 --> 00:03:05,680
+ We have here our Consumer Price Index, the Crude Oil Index and then Pumps, Compressors
+
+43
+00:03:05,680 --> 00:03:08,719
+ and Equipment Index.
+
+44
+00:03:08,719 --> 00:03:12,000
+ We will see some more later like here.
+
+45
+00:03:12,000 --> 00:03:16,920
+ We have here Chemical Engineering, Engineering Cost and the Marshall and Swift.
+
+46
+00:03:16,920 --> 00:03:18,520
+ We see that it's rather simple.
+
+47
+00:03:18,520 --> 00:03:30,400
+ We have the cost at time t is a cost at time c0 multiplied by the ratio i t over i 0.
+
+48
+00:03:30,400 --> 00:03:41,319
+ The example seems to be a little bit outdated but the principle remains the same.
+
+49
+00:03:41,319 --> 00:03:47,480
+ So here is a simple example.
+
+50
+00:03:47,480 --> 00:03:53,360
+ In evaluating the feasibility of a major construction project, an engineer is interested in estimating
+
+51
+00:03:53,360 --> 00:03:56,800
+ the cost of skilled labor for the job.
+
+52
+00:03:56,800 --> 00:04:01,400
+ The engineer finds that a project of similar complexity and magnitude was completed five
+
+53
+00:04:01,400 --> 00:04:06,480
+ years ago at a skilled labor cost of 360,000.
+
+54
+00:04:06,480 --> 00:04:18,600
+ The ENR, the Engineering News Record Skilled Labor Index was 3,496 then and now it's 4,038.
+
+55
+00:04:18,600 --> 00:04:24,920
+ So what is it today in terms of an estimation for the skilled labor cost?
+
+56
+00:04:24,920 --> 00:04:30,800
+ Well, if we use that equation, we see that we have making the simple calculation, we
+
+57
+00:04:30,800 --> 00:04:35,160
+ have our new estimate.
+
+58
+00:04:35,160 --> 00:04:37,600
+ This is another example.
+
+59
+00:04:37,600 --> 00:04:42,480
+ So a manufacturing engineer with Hughes Industries is in the process of estimating costs for
+
+60
+00:04:42,480 --> 00:04:44,600
+ plant expansion.
+
+61
+00:04:44,600 --> 00:04:52,879
+ Two important elements used in the manufacturing process are circuit boards and platinum alloy.
+
+62
+00:04:52,879 --> 00:05:00,079
+ What the purchasing department did was they did spot checks of the market prices of these
+
+63
+00:05:00,079 --> 00:05:06,639
+ two elements and they summarized things in the table you see below.
+
+64
+00:05:06,639 --> 00:05:12,959
+ And then the question is, if you make the first quarter of 2001 the base period, what
+
+65
+00:05:12,959 --> 00:05:17,600
+ are then the cost indices for the other periods?
+
+66
+00:05:17,600 --> 00:05:20,819
+ So if you have a look here at what is in the red frame, it's easy.
+
+67
+00:05:20,819 --> 00:05:28,779
+ So we take Q1 being the base, so that means that for Q3 of the previous year, we get
+
+68
+00:05:28,779 --> 00:05:41,740
+ 56.7 divided by the 56.6 of our base quarter that gives us 100.17 and similar way we do
+
+69
+00:05:41,740 --> 00:05:43,620
+ all the rest.
+
+70
+00:05:43,620 --> 00:05:48,620
+ Why are these indices important or why are they interesting?
+
+71
+00:05:49,220 --> 00:05:56,000
+ It helps us to see variability, it helps us to see trends, it helps us to see how the
+
+72
+00:05:56,000 --> 00:05:57,699
+ market is behaving.
+
+73
+00:05:57,699 --> 00:06:01,980
+ So it's providing us some management information.
+
+74
+00:06:01,980 --> 00:06:09,120
+ A note, maybe first, which is not on the slide, but it's important to note that these indices
+
+75
+00:06:09,120 --> 00:06:11,399
+ are published, so you don't have to compute them yourself.
+
+76
+00:06:11,399 --> 00:06:16,699
+ They are published like the Chemical Engineering Index or the Marshall and Swift Index or the
+
+77
+00:06:16,899 --> 00:06:21,319
+ Engineering News Record Index that are published.
+
+78
+00:06:21,319 --> 00:06:25,939
+ They are built up out of components.
+
+79
+00:06:25,939 --> 00:06:30,740
+ These components can have subcomponents and each of these subcomponents and components
+
+80
+00:06:30,740 --> 00:06:34,060
+ have different weights that are taken into account.
+
+81
+00:06:34,060 --> 00:06:43,740
+ Also every index has a base here that's not the same for all indices.
+
+82
+00:06:43,740 --> 00:06:53,420
+ This is an example of the Chemical Engineering Index and the little table or list on the
+
+83
+00:06:53,420 --> 00:06:55,620
+ right gives you an impression what is in it.
+
+84
+00:06:55,620 --> 00:06:59,780
+ We have an Equipment Index, we have a Construction Labor Index, we have a Buildings Index and
+
+85
+00:06:59,780 --> 00:07:03,060
+ we have an Engineering and Supervision Index.
+
+86
+00:07:03,060 --> 00:07:06,340
+ If you see that or the components, there are subcomponents.
+
+87
+00:07:06,340 --> 00:07:11,420
+ If you see for the Equipment Index, we have heat exchanges, we have process machinery,
+
+88
+00:07:11,500 --> 00:07:16,500
+ pipes, valves and fittings, process instruments, pumps and compressors, electrical equipment,
+
+89
+00:07:16,500 --> 00:07:18,379
+ structural support and miscellaneous.
+
+90
+00:07:18,379 --> 00:07:28,379
+ So we have equipment that is actually used a lot in chemical engineering plants.
+
+91
+00:07:28,379 --> 00:07:34,660
+ Well to the right you see some more details, you see also the weights and what you see
+
+92
+00:07:34,660 --> 00:07:38,220
+ in the graph is how it's evolving over time.
+
+93
+00:07:38,220 --> 00:07:45,620
+ It's not monotonically evolving, the curves are increasing, everything gets more expensive.
+
+94
+00:07:45,620 --> 00:07:50,540
+ It means that there are ups and downs like for instance if there's an economic crisis
+
+95
+00:07:50,540 --> 00:07:55,460
+ or if there's a lot of inflation and things like that, it can influence that curve.
+
+96
+00:07:55,460 --> 00:08:01,500
+ You also see that the different curves are not evolving in the same way.
+
+97
+00:08:01,500 --> 00:08:06,580
+ So that's also something that is important to note.
+
+98
+00:08:06,579 --> 00:08:12,620
+ Evolution, so there were some revisions, so every now and then it's needed to revise
+
+99
+00:08:12,620 --> 00:08:18,139
+ the index and that's what the Chemical Engineering Index is doing.
+
+100
+00:08:18,139 --> 00:08:24,139
+ Its origin is in 1963, so it's already quite an old index.
+
+101
+00:08:24,139 --> 00:08:29,019
+ It remained the same till 1982.
+
+102
+00:08:29,019 --> 00:08:35,500
+ In 2002 there was a last major revision, so if you see every 20 years we can think that
+
+103
+00:08:35,500 --> 00:08:40,019
+ one might be coming up soon.
+
+104
+00:08:40,019 --> 00:08:44,220
+ This is a nice, I would definitely tell you to read it.
+
+105
+00:08:44,220 --> 00:08:46,659
+ It's a quite interesting story.
+
+106
+00:08:46,659 --> 00:08:53,539
+ It's saying observing the five years rule, so I would suggest stop the recording and
+
+107
+00:08:53,539 --> 00:08:56,139
+ read it.
+
+108
+00:08:56,139 --> 00:08:57,139
+ What is it about?
+
+109
+00:08:57,139 --> 00:09:06,699
+ It's about, so we know that in 1970 a liquid oxygen plant of 700 tons a day had an initial
+
+110
+00:09:06,699 --> 00:09:09,179
+ cost of 10 million.
+
+111
+00:09:09,179 --> 00:09:15,559
+ Now we want to know in 2000, 30 years later, what a liquid oxygen plant of the same capacity
+
+112
+00:09:15,559 --> 00:09:17,019
+ would cost.
+
+113
+00:09:17,019 --> 00:09:25,139
+ So we can apply our cost index formula and then we find that it would be 31.3 million.
+
+114
+00:09:25,139 --> 00:09:26,220
+ So is that okay?
+
+115
+00:09:26,300 --> 00:09:31,180
+ Well, we applied the cost index formula correctly, so okay.
+
+116
+00:09:31,180 --> 00:09:32,180
+ But it's not okay.
+
+117
+00:09:32,180 --> 00:09:35,580
+ There is a need for critical reflection.
+
+118
+00:09:35,580 --> 00:09:42,420
+ We can't just extrapolate that index so far.
+
+119
+00:09:42,420 --> 00:09:50,980
+ In 30 years a lot can happen, like here the liquid oxygen plant, there were a lot of changes
+
+120
+00:09:50,980 --> 00:09:56,200
+ in production process, production efficiency went up, so technological changes.
+
+121
+00:09:57,180 --> 00:10:02,520
+ Also, occupational health and safety legislation changed, requiring modifications to the equipment,
+
+122
+00:10:02,520 --> 00:10:06,800
+ requiring extra monitoring equipment, requiring extra personnel.
+
+123
+00:10:06,800 --> 00:10:11,840
+ Also equipment and labor rates, two components that are important in that cost index, evolved
+
+124
+00:10:11,840 --> 00:10:15,759
+ at different rates, so we need a different weighting.
+
+125
+00:10:15,759 --> 00:10:20,000
+ So we could say that the cost index that we use is not reliable anymore.
+
+126
+00:10:20,000 --> 00:10:23,160
+ So we should be careful with extended time extrapolations.
+
+127
+00:10:23,159 --> 00:10:28,839
+ For some sectors that might be okay, but for others it's definitely not okay.
+
+128
+00:10:28,839 --> 00:10:29,839
+ So be careful.
+
+129
+00:10:29,839 --> 00:10:37,719
+ That's why they say the five-year rules, don't use them more than five years ahead.
+
+130
+00:10:37,719 --> 00:10:41,719
+ A little bit of information on that engineering cost index.
+
+131
+00:10:41,719 --> 00:10:49,039
+ There's an engineering use record construction cost index and engineering use record building
+
+132
+00:10:49,039 --> 00:10:50,039
+ cost index.
+
+133
+00:10:50,039 --> 00:10:55,000
+ Both are containing construction costs, but there's a difference in labor costs.
+
+134
+00:10:55,000 --> 00:11:02,000
+ The CCI is more for projects where labor costs are very important, why the building costs
+
+135
+00:11:02,000 --> 00:11:09,199
+ is more suited for building projects with a lot of structures in it.
+
+136
+00:11:09,199 --> 00:11:11,719
+ And here you see some information.
+
+137
+00:11:11,719 --> 00:11:14,559
+ So the base here is already very old index.
+
+138
+00:11:14,559 --> 00:11:18,679
+ They are working with spot prices from a single source.
+
+139
+00:11:18,679 --> 00:11:22,759
+ It needs to be a published source.
+
+140
+00:11:22,759 --> 00:11:25,279
+ They're looking at 20 cities.
+
+141
+00:11:25,279 --> 00:11:30,679
+ They make an average, so not a weighted average, an unweighted average.
+
+142
+00:11:30,679 --> 00:11:36,639
+ There is no Arizona or Florida city in it.
+
+143
+00:11:36,639 --> 00:11:40,719
+ There's no seasonal adjustment.
+
+144
+00:11:40,719 --> 00:11:43,479
+ So it's an index.
+
+145
+00:11:43,480 --> 00:11:49,560
+ I mean, don't expect these index to be 100% accurate and taking into account all different
+
+146
+00:11:49,560 --> 00:11:54,720
+ factors and influences that you want or expect.
+
+147
+00:11:54,720 --> 00:11:56,519
+ So be careful if you use an index.
+
+148
+00:11:56,519 --> 00:12:04,879
+ They're very handy, but be careful that you know what exactly is in it and what's not.
+
+149
+00:12:04,879 --> 00:12:05,879
+ This is a study.
+
+150
+00:12:05,879 --> 00:12:11,159
+ So it's a bit outdated, but it's still an interesting problem situation.
+
+151
+00:12:11,159 --> 00:12:19,959
+ So a chemical company in Belgium wanted to use an index, but they were not very keen
+
+152
+00:12:19,959 --> 00:12:23,319
+ on using an index from literature.
+
+153
+00:12:23,319 --> 00:12:27,199
+ And here you see these indices.
+
+154
+00:12:27,199 --> 00:12:31,959
+ They were brought to the same base here to compare them.
+
+155
+00:12:31,959 --> 00:12:38,000
+ And what they noticed was that there was a large difference between these indices.
+
+156
+00:12:38,000 --> 00:12:44,519
+ They weren't too confident that it was a good idea to use either of them.
+
+157
+00:12:44,519 --> 00:12:49,200
+ So they wanted to use one themselves and they wanted to have a quick one.
+
+158
+00:12:49,200 --> 00:12:54,639
+ So they simplified the cost index formula and they did some simulations so that they
+
+159
+00:12:54,639 --> 00:12:59,279
+ ended up with three factors and three weighting factors.
+
+160
+00:12:59,279 --> 00:13:04,720
+ Now it's, well, I say the chemical company in Belgium, but actually it was a multinational
+
+161
+00:13:04,720 --> 00:13:10,639
+ and they tried to apply this formula to different countries and they came out with different
+
+162
+00:13:10,639 --> 00:13:15,639
+ curves, very different results.
+
+163
+00:13:15,639 --> 00:13:22,920
+ So they said, well, if you have to use that in computations in Belgium, we will have to
+
+164
+00:13:22,920 --> 00:13:26,779
+ see where our materials come from, where the equipment coming from.
+
+165
+00:13:26,779 --> 00:13:33,200
+ So they made it a weighted sum of country index indices based on where their material
+
+166
+00:13:33,200 --> 00:13:35,800
+ was coming from.
+
+167
+00:13:35,800 --> 00:13:41,920
+ So it's giving you some idea on how these spaces are built.
+
+168
+00:13:41,920 --> 00:13:44,920
+ Now why did they want so a quick index?
+
+169
+00:13:44,920 --> 00:13:50,560
+ Well, they were using for their maintenance, they were using the formula total maintenance
+
+170
+00:13:50,560 --> 00:13:57,120
+ cost per year over capital replacement value or the stores ratio, MRO stands for maintenance,
+
+171
+00:13:57,120 --> 00:14:01,560
+ repair and operating supply over capital replacement value.
+
+172
+00:14:01,559 --> 00:14:09,159
+ The capital replacement value is defined as the money needed today to replace a current
+
+173
+00:14:09,159 --> 00:14:11,839
+ installation.
+
+174
+00:14:11,839 --> 00:14:19,519
+ They didn't want to go through a very sophisticated detailed engineering calculation to determine
+
+175
+00:14:19,519 --> 00:14:21,039
+ that capital replacement.
+
+176
+00:14:21,039 --> 00:14:24,199
+ They just wanted to use a index.
+
+177
+00:14:24,280 --> 00:14:34,480
+ So that's why they wanted that index that was really tailored to their specific situation.
+
+178
+00:14:34,480 --> 00:14:41,800
+ They switched from the old index that they were using to the new cost index.
+
+179
+00:14:41,800 --> 00:14:49,240
+ You see that the trend is fairly similar, but you also see that the numbers are not
+
+180
+00:14:49,240 --> 00:14:50,919
+ the same.
+
+181
+00:14:50,919 --> 00:15:00,600
+ So you might be surprised at the evolution of the numbers if you do not know that another
+
+182
+00:15:00,600 --> 00:15:01,680
+ index has been used.
+
+183
+00:15:01,680 --> 00:15:06,919
+ So again, be careful with the use of these indices.
+
+184
+00:15:06,919 --> 00:15:10,159
+ Here they used it for the stores ratio.
+
+185
+00:15:10,159 --> 00:15:15,120
+ Okay, but let's move on.
+
+186
+00:15:15,120 --> 00:15:17,600
+ These are some other examples.
+
+187
+00:15:17,600 --> 00:15:22,360
+ For instance, for material handling equipment manufacturing.
+
+188
+00:15:22,360 --> 00:15:27,879
+ This is one from the ICRI Institute for medical equipment.
+
+189
+00:15:27,879 --> 00:15:34,759
+ Okay, this is something we will do in the exercises now.
+
+190
+00:15:34,759 --> 00:15:37,040
+ What benefits do you see?
+
+191
+00:15:37,040 --> 00:15:39,360
+ What challenges do you see by using cost indices?
+
+192
+00:15:39,360 --> 00:15:46,240
+ If you recall in the first open office, this type of question was raised as being a typical
+
+193
+00:15:46,480 --> 00:15:54,000
+ another typical type of case study that you could come across in the exam.
+
+194
+00:15:54,000 --> 00:16:02,600
+ Now cost estimation relationships, also called CERs or parametric methods.
+
+195
+00:16:02,600 --> 00:16:07,000
+ They use design variables to predict costs.
+
+196
+00:16:07,000 --> 00:16:13,200
+ So they're different from cost index methods because the index is based on cost history
+
+197
+00:16:13,360 --> 00:16:15,720
+ of a well-defined quantity and quality of a variable.
+
+198
+00:16:15,720 --> 00:16:16,720
+ There are two types.
+
+199
+00:16:16,720 --> 00:16:20,400
+ We have the cost capacity equation and the factor methods.
+
+200
+00:16:20,400 --> 00:16:22,200
+ Let's have a look.
+
+201
+00:16:22,200 --> 00:16:26,440
+ So cost capacity equations are the most widely used ones.
+
+202
+00:16:26,440 --> 00:16:30,720
+ They're also called power laws or sizing models.
+
+203
+00:16:30,720 --> 00:16:33,860
+ And the formula is simple, as you see.
+
+204
+00:16:33,860 --> 00:16:42,860
+ So C2, the cost of at capacity Q2, we estimate that by taking the cost of capacity at Q2
+
+205
+00:16:43,600 --> 00:16:45,600
+ Q1.
+
+206
+00:16:45,600 --> 00:16:47,200
+ And then we divide that.
+
+207
+00:16:47,200 --> 00:16:53,240
+ We multiply by Q2 over Q1 raised to a certain power.
+
+208
+00:16:53,240 --> 00:16:55,520
+ Now that certain power, where do we find it?
+
+209
+00:16:55,520 --> 00:16:57,640
+ Well, we find that it's published.
+
+210
+00:16:57,640 --> 00:17:05,559
+ For instance, in chemical engineering's handbook, the US Environmental Protection Agency handbooks,
+
+211
+00:17:05,559 --> 00:17:07,759
+ professional journals, etc.
+
+212
+00:17:07,759 --> 00:17:11,920
+ An average X is 0.6.
+
+213
+00:17:11,920 --> 00:17:15,360
+ If you have an X smaller than 1, we have economies of scale.
+
+214
+00:17:15,360 --> 00:17:17,680
+ If X is 1, we have a linear relationship.
+
+215
+00:17:17,680 --> 00:17:21,880
+ If X is larger than 1, we have these economies of scale.
+
+216
+00:17:21,880 --> 00:17:32,880
+ Of course, we could complement this by having our cost indices also in the picture.
+
+217
+00:17:34,560 --> 00:17:35,920
+ So here you see some examples.
+
+218
+00:17:35,920 --> 00:17:44,920
+ Maybe to the right you see that indeed if we have C1 of 1000, Q1 of 1000, and then Q2 of 2000.
+
+219
+00:17:44,920 --> 00:17:46,920
+ And what is C2?
+
+220
+00:17:46,920 --> 00:17:51,560
+ If X is 1, well, we have C2 is 2000, so it's linear.
+
+221
+00:17:51,560 --> 00:17:55,000
+ If X is smaller than 1, we have our economies of scale.
+
+222
+00:17:55,000 --> 00:17:58,440
+ If it's larger, we have these economies of scale.
+
+223
+00:17:58,440 --> 00:18:03,840
+ Now here you see some examples of components and you see the size range.
+
+224
+00:18:03,839 --> 00:18:08,439
+ And then you see the exponent X that you are supposed to use.
+
+225
+00:18:08,439 --> 00:18:10,119
+ So here a simple example.
+
+226
+00:18:10,119 --> 00:18:14,919
+ So we're talking about a digester.
+
+227
+00:18:14,919 --> 00:18:21,919
+ We know that for one capable of handling a flow rate of 0.5 million gallons per day,
+
+228
+00:18:21,919 --> 00:18:25,279
+ the cost was 1.7 million in 2000.
+
+229
+00:18:25,279 --> 00:18:34,000
+ And now we are asked to estimate the cost for a flow rate of 2.0 million of gallons per day.
+
+230
+00:18:34,000 --> 00:18:40,200
+ The exponent we have to use is in the range 0.2 to 40.
+
+231
+00:18:40,200 --> 00:18:45,039
+ So it's 0.14 in previous table.
+
+232
+00:18:45,039 --> 00:18:53,440
+ And the cost indices that we have to use or the cost index rather in 2000 is 131.
+
+233
+00:18:53,440 --> 00:18:58,200
+ And it has been updated for this year to 125.
+
+234
+00:18:58,200 --> 00:19:07,240
+ So in blue, we have our cost estimation based on the capacity.
+
+235
+00:19:07,240 --> 00:19:12,039
+ We're talking about the same piece of equipment, but they have a different capacity.
+
+236
+00:19:12,039 --> 00:19:13,200
+ So this is the first part.
+
+237
+00:19:13,200 --> 00:19:18,960
+ And then the second part with dotted lines is then the cost index that we are applying.
+
+238
+00:19:18,960 --> 00:19:20,240
+ So we can combine both.
+
+239
+00:19:20,240 --> 00:19:25,240
+ Another CER method is the factor method.
+
+240
+00:19:25,240 --> 00:19:29,839
+ It was developed originally for estimating total plant cost.
+
+241
+00:19:29,839 --> 00:19:37,640
+ The thing is that the total plant cost will be estimated based on major equipment items used in that plant.
+
+242
+00:19:37,640 --> 00:19:39,960
+ And then we multiply with factors.
+
+243
+00:19:39,960 --> 00:19:46,759
+ So we assume that the major costs or the cost of major equipment is already available.
+
+244
+00:19:47,359 --> 00:19:51,480
+ And then we can use the proper factors to have a rapid estimate.
+
+245
+00:19:51,480 --> 00:19:58,920
+ These factors are called the Leng factors because the first to use these factors was Leng.
+
+246
+00:19:58,920 --> 00:20:01,680
+ See, also not very recent.
+
+247
+00:20:01,680 --> 00:20:04,319
+ There have been updates in the method.
+
+248
+00:20:04,319 --> 00:20:13,079
+ Basic formula is CT, the total plant cost is based on CE, which is the cost of major equipment in that plant,
+
+249
+00:20:13,079 --> 00:20:20,399
+ times H and H is a factor, cost factor, which is a sum of individual cost factors.
+
+250
+00:20:22,879 --> 00:20:36,879
+ For instance, an engineer once has learned that the expansion of a solid fluid process plant is expected to have a delivered equipment cost of 1.5 million.
+
+251
+00:20:36,880 --> 00:20:43,200
+ If the overall cost factor for this type of plant is 3.63, then estimate the total plant cost.
+
+252
+00:20:43,200 --> 00:20:49,200
+ And that's not a very difficult equation, of course.
+
+253
+00:20:49,200 --> 00:20:58,600
+ Now, these factors, well, Leng showed that direct cost factors and indirect cost factors can be combined into one overall factor.
+
+254
+00:20:58,719 --> 00:21:09,559
+ And we know what they are for some types of plants, 3.1, for instance, for a solid process plant or 4.74 for fluid process plants.
+
+255
+00:21:09,559 --> 00:21:11,319
+ So that's what you see on top.
+
+256
+00:21:11,319 --> 00:21:19,399
+ So we have H is 1 plus all these factors, and these factors include direct and indirect costs.
+
+257
+00:21:19,399 --> 00:21:21,919
+ That method has been refined.
+
+258
+00:21:21,919 --> 00:21:27,059
+ And that's the second equation that you see.
+
+259
+00:21:27,059 --> 00:21:36,059
+ There we have, again, the 1 plus the sum of all if i's, but these if i's are direct cost components.
+
+260
+00:21:36,059 --> 00:21:42,480
+ And then we multiply that by 1 plus if big i, and that big i is the indirect cost factor.
+
+261
+00:21:42,480 --> 00:21:44,079
+ So it's a slightly different approach.
+
+262
+00:21:47,480 --> 00:21:56,379
+ The delivered equipment cost for a small chemical process plant is expected to be 2 million if the direct cost factor is 1.61.
+
+263
+00:21:56,380 --> 00:22:02,900
+ And the indirect cost factor is 0.25, determine the total cost for the plant.
+
+264
+00:22:02,900 --> 00:22:07,400
+ And we will just add up all the cost factors.
+
+265
+00:22:07,400 --> 00:22:11,240
+ So H is 1 plus the direct one and the indirect one.
+
+266
+00:22:11,240 --> 00:22:18,400
+ We multiply the 2 million with that and we end up with 5,720,000.
+
+267
+00:22:18,400 --> 00:22:20,300
+ Let's have a look at another example.
+
+268
+00:22:20,300 --> 00:22:24,740
+ So we're talking about an activated sludge wastewater treatment plant.
+
+269
+00:22:24,799 --> 00:22:30,500
+ And we have estimates for the delivered equipment first costs.
+
+270
+00:22:30,500 --> 00:22:39,700
+ And we also know that the cost factor for installation of piping, concrete, steel, insulation, supports, etc. is 0.49.
+
+271
+00:22:39,700 --> 00:22:45,460
+ The construction factor is 0.53 and indirect cost factor is 0.21.
+
+272
+00:22:45,460 --> 00:22:52,940
+ And we are asked to determine the total plant cost if A, all cost factors are applied to the cost of the delivered equipment.
+
+273
+00:22:52,940 --> 00:22:57,740
+ And B, the indirect cost factor is applied to the total direct cost.
+
+274
+00:22:57,740 --> 00:23:00,059
+ So again, not very difficult.
+
+275
+00:23:00,059 --> 00:23:06,340
+ So in A, we just add up the 0.49, 0.53 and the 0.21 with 1.
+
+276
+00:23:06,340 --> 00:23:08,539
+ And then we have our H.
+
+277
+00:23:08,539 --> 00:23:18,960
+ In the second case, B, we just add up the direct cost factors and we come to 2.02.
+
+278
+00:23:18,960 --> 00:23:23,680
+ And then we multiply that with 1 plus the 0.21.
+
+279
+00:23:23,680 --> 00:23:25,980
+ So we have a slightly different number.
+
+280
+00:23:25,980 --> 00:23:30,380
+ In the first case, we had 608,790.
+
+281
+00:23:30,380 --> 00:23:38,380
+ Second case, we have the 667,267.
+
+282
+00:23:38,380 --> 00:23:40,860
+ So they are quite different.
+
+283
+00:23:40,859 --> 00:23:50,659
+ So it's important to know that if you use factors, what exactly is in there and is that suitable for what you want to do?
+
+284
+00:23:50,659 --> 00:23:56,079
+ An issue on indirect costs, I will not talk a lot about that because it's management accounting.
+
+285
+00:23:56,079 --> 00:24:03,919
+ I expect that most of you have seen indirect costs in a management accounting course.
+
+286
+00:24:03,919 --> 00:24:09,819
+ Sometimes we have to rely on ABC casting, activity based casting.
+
+287
+00:24:09,819 --> 00:24:13,019
+ Just very briefly what it's about.
+
+288
+00:24:13,019 --> 00:24:20,079
+ The setting is a third party warehouse and assume that warehousing costs like building, maintenance, equipment, packaging materials,
+
+289
+00:24:20,079 --> 00:24:22,720
+ personnel or 300,000 per year.
+
+290
+00:24:22,720 --> 00:24:28,919
+ And we have three customers and each customer has a contract for 1500 pallet positions.
+
+291
+00:24:28,919 --> 00:24:35,720
+ So it's the storage square meters that they take in and that's also all the incoming and
+
+292
+00:24:35,720 --> 00:24:41,779
+ outgoing movements that are related to their stock.
+
+293
+00:24:41,779 --> 00:24:49,120
+ So at first, it might seem logical to split up the 300,000 evenly over the three customers in a euro per pallet position.
+
+294
+00:24:49,120 --> 00:24:55,420
+ So a very traditional way of computing indirect costs.
+
+295
+00:24:55,420 --> 00:24:58,120
+ But maybe that's not so logical.
+
+296
+00:24:58,120 --> 00:25:01,620
+ It's only logical when the three customers have similar activities.
+
+297
+00:25:01,619 --> 00:25:11,419
+ If, for instance, we have a situation where customers A and B always have reception and shipments in full pallets,
+
+298
+00:25:11,419 --> 00:25:18,119
+ but for customers C, only the receipts are in full pallets, but the shipping occurs in individual boxes.
+
+299
+00:25:18,119 --> 00:25:24,279
+ So that means that C has need for a lot more manipulations in the warehouse.
+
+300
+00:25:24,279 --> 00:25:30,079
+ So it seems fair that also that then C pays more than A and B.
+
+301
+00:25:30,079 --> 00:25:37,919
+ But in order to determine how much more that C should pay, we should make a more detailed analysis on the warehousing activities.
+
+302
+00:25:37,919 --> 00:25:43,879
+ And that exactly is what activity based costing is doing.
+
+303
+00:25:43,879 --> 00:25:47,519
+ Exercises, we have a separate section on exercises.
+
+304
+00:25:47,519 --> 00:25:53,079
+ If you go back to the indirect cost analysis, this is a very interesting example in the book.
+
+305
+00:25:53,079 --> 00:25:56,720
+ So it's an indirect cost analysis of medical equipment and manufacturing costs.
+
+306
+00:25:56,720 --> 00:26:05,519
+ So for those of you who have not had been in contact with indirect costs, it's definitely something an activity based costing.
+
+307
+00:26:05,519 --> 00:26:10,400
+ It's definitely interesting to have a look at it.
+
+308
+00:26:10,400 --> 00:26:15,759
+ I summarized the solution for you.
+
+309
+00:26:15,759 --> 00:26:21,700
+ We will not discuss it. It will not be part of the exam, but it's definitely interesting to have a look at.
+
+310
+00:26:21,700 --> 00:26:25,220
+ OK, that brings us to the end of this chapter.
+
+311
+00:26:25,220 --> 00:26:28,900
+ Cost estimation, what is it?
+
+312
+00:26:28,900 --> 00:26:32,420
+ What about accuracy? Learning curve.
+
+313
+00:26:32,420 --> 00:26:36,360
+ Very important. Maybe I should have underlined it because it's something extra.
+
+314
+00:26:36,360 --> 00:26:39,900
+ So don't forget to study it. It's not in handbook.
+
+315
+00:26:39,900 --> 00:26:42,620
+ And then we have the cost estimation. We saw some techniques.
+
+316
+00:26:42,620 --> 00:26:49,160
+ The per unit method, the cost indices, the cost capacity equations with the power law, with the factor method.
+
+317
+00:26:49,160 --> 00:26:55,100
+ Of course, we did not talk about it, but if you don't want to go with these cost estimation methods,
+
+318
+00:26:55,100 --> 00:27:04,340
+ you could rely on data from professional organizations or you could buy some design software
+
+319
+00:27:04,340 --> 00:27:12,600
+ or you could do some detailed engineering calculations that depends on how accurate your estimation needs to be.
+
+320
+00:27:12,600 --> 00:27:15,100
+ And then, well, at the end, we mentioned indirect costs,
+
+321
+00:27:15,099 --> 00:27:19,579
+ but that's something that is a bit outside the scope of this course.
+

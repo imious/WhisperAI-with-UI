@@ -1,0 +1,324 @@
+1
+00:00:00,000 --> 00:00:07,000
+ The title of this chapter is Replacement and Retention Decisions.
+
+2
+00:00:07,000 --> 00:00:18,000
+ We are studying a specific type of investment problems, namely should we retain the current machine or should we replace it by a newer version.
+
+3
+00:00:18,000 --> 00:00:24,000
+ In this chapter we will not see new criteria to evaluate investments.
+
+4
+00:00:24,000 --> 00:00:31,000
+ We already saw the annual, present and future world. Last time we saw the rate of return.
+
+5
+00:00:31,000 --> 00:00:37,000
+ Here we will use the annual world, but for a specific type of problems.
+
+6
+00:00:37,000 --> 00:00:42,000
+ This is an overview, it's a rather short chapter.
+
+7
+00:00:43,000 --> 00:00:48,000
+ What we also want to do is this.
+
+8
+00:00:48,000 --> 00:00:59,000
+ If you google or you look in Science Direct and you look replacement problems, you will find a very specific type of model.
+
+9
+00:00:59,000 --> 00:01:09,000
+ Let's see whether these models are completely in line with what our engineering economy handbook says about replacement problems or not.
+
+10
+00:01:10,000 --> 00:01:17,000
+ Why would we consider replacing our current machine installation plant?
+
+11
+00:01:17,000 --> 00:01:27,000
+ Because it shows reduced performance, wear and tear. It's not so reliable anymore, it's not productive enough anymore.
+
+12
+00:01:27,000 --> 00:01:31,000
+ Operating costs, for instance energy consumption is increasing.
+
+13
+00:01:32,000 --> 00:01:43,000
+ There are different requirements. New production is needed, more accurate production is needed or the asset that we have is become...
+
+14
+00:01:43,000 --> 00:01:52,000
+ Well, we can't use it anymore if we want to be competitive because for instance the technology is not state of the art anymore.
+
+15
+00:01:52,000 --> 00:01:56,000
+ So we cannot be competitive if we stick with it.
+
+16
+00:01:57,000 --> 00:02:06,000
+ Here you see, we brought together some terminology. I think most of the terminology you know.
+
+17
+00:02:06,000 --> 00:02:09,000
+ Let me just point out the new things to you.
+
+18
+00:02:09,000 --> 00:02:15,000
+ We have our old installation that we are considering for replacement.
+
+19
+00:02:15,000 --> 00:02:22,000
+ Well, that old installation is called the defender asset. The one we want to replace it with is called the challenger.
+
+20
+00:02:22,000 --> 00:02:27,000
+ Definitely two mutually exclusive options. We will not keep the old one and buy a new one.
+
+21
+00:02:27,000 --> 00:02:30,000
+ So it's either one thing or another.
+
+22
+00:02:30,000 --> 00:02:35,000
+ Another thing that is important, the notion of economic service life.
+
+23
+00:02:35,000 --> 00:02:40,000
+ We will see it in more detail later on.
+
+24
+00:02:40,000 --> 00:02:47,000
+ But basically it's the number of years at which the lowest annual worth of costs occurs.
+
+25
+00:02:47,000 --> 00:02:53,000
+ We will encounter market value for the defender.
+
+26
+00:02:53,000 --> 00:03:01,000
+ That's a real current fair market value.
+
+27
+00:03:01,000 --> 00:03:05,000
+ So it's really what the market is willing to pay for it.
+
+28
+00:03:05,000 --> 00:03:12,000
+ It's not what you think that it could be or it's also not what your book value says.
+
+29
+00:03:12,000 --> 00:03:19,000
+ Very very important in this chapter is that we take the consultant's point of view.
+
+30
+00:03:19,000 --> 00:03:32,000
+ Basically what it means is that you take the point of view of an outsider.
+
+31
+00:03:32,000 --> 00:03:42,000
+ And that means that you also take into account that keeping the defender is costing money.
+
+32
+00:03:42,000 --> 00:03:52,000
+ Because you give up the opportunity to receive a possible cash flow from the current defender.
+
+33
+00:03:52,000 --> 00:03:59,000
+ So that's what is important. The defender also still has in our formulas an initial investment.
+
+34
+00:04:00,000 --> 00:04:05,000
+ But I think it will become more clear when we see some examples.
+
+35
+00:04:05,000 --> 00:04:11,000
+ So this is a case study about the Arkansas division of a company called ADM.
+
+36
+00:04:11,000 --> 00:04:19,000
+ Three years ago they purchased a ground leveling system for rice field preparation at a cost of 120,000.
+
+37
+00:04:19,000 --> 00:04:27,000
+ At the time they expected the service life to be 10 years and after that a salvage value of 25,000 could still be received.
+
+38
+00:04:27,000 --> 00:04:31,000
+ An annual operating cost of 30,000 was expected.
+
+39
+00:04:31,000 --> 00:04:34,000
+ The current account book value is 80,000.
+
+40
+00:04:34,000 --> 00:04:42,000
+ The system is deteriorating rapidly and they expected after three more years of use the salvage value could be 10,000.
+
+41
+00:04:42,000 --> 00:04:48,000
+ Annual operating costs are still expected to be the 30,000.
+
+42
+00:04:48,000 --> 00:04:51,000
+ Now a new system has appeared on the market.
+
+43
+00:04:51,000 --> 00:04:59,000
+ Value of 100,000 dollar. Trading value for the current system today is 70,000.
+
+44
+00:04:59,000 --> 00:05:05,000
+ The price for that new system goes up next week to 110,000.
+
+45
+00:05:05,000 --> 00:05:08,000
+ But the trading value for our old one is still 70,000.
+
+46
+00:05:08,000 --> 00:05:16,000
+ The engineer estimates that the system would have a useful life of 10 years and a salvage value of 20 after that.
+
+47
+00:05:17,000 --> 00:05:21,000
+ Annual operating costs are estimated to be 20,000.
+
+48
+00:05:21,000 --> 00:05:25,000
+ So a lot less than, a bit less of our current system.
+
+49
+00:05:25,000 --> 00:05:29,000
+ And a 70 market value appraisal of the current system was made today.
+
+50
+00:05:29,000 --> 00:05:34,000
+ Later on we will see that the timing of these estimates is important.
+
+51
+00:05:34,000 --> 00:05:44,000
+ So if no further analysis is made on the estimates, what are the correct values that we should use in our replacement study today?
+
+52
+00:05:45,000 --> 00:05:47,000
+ Ok, let's have a look.
+
+53
+00:05:48,000 --> 00:05:51,000
+ So this is the situation.
+
+54
+00:05:51,000 --> 00:05:57,000
+ Three years ago we bought this system, a ground leveling system.
+
+55
+00:05:57,000 --> 00:06:02,000
+ So this was the purchase price, the expected service life at the time was 10 years.
+
+56
+00:06:02,000 --> 00:06:07,000
+ Expected service value 25,000, annual operating cost 30,000.
+
+57
+00:06:07,000 --> 00:06:13,000
+ Now if you look today, its current book value is 80,000.
+
+58
+00:06:13,000 --> 00:06:17,000
+ We expect the life to be another three years.
+
+59
+00:06:17,000 --> 00:06:23,000
+ So if you see, well, three years ago it was 10 years so we would expect it to be seven years.
+
+60
+00:06:23,000 --> 00:06:26,000
+ But well, no, it's only three years.
+
+61
+00:06:26,000 --> 00:06:32,000
+ Expected salvage value, annual operating costs and market value appraisal.
+
+62
+00:06:32,000 --> 00:06:38,000
+ Ok, now what about the new system?
+
+63
+00:06:38,000 --> 00:06:40,000
+ Well, this is the data we obtained.
+
+64
+00:06:40,000 --> 00:06:43,000
+ Ok, now what is important for our replacement study?
+
+65
+00:06:43,000 --> 00:06:45,000
+ I see here a lot of numbers.
+
+66
+00:06:45,000 --> 00:06:50,000
+ Well, we have to take that consultant's view, outsider viewpoint.
+
+67
+00:06:50,000 --> 00:06:53,000
+ And then these are things that actually matter.
+
+68
+00:06:53,000 --> 00:06:59,000
+ What matters is our market value, current market value of the old system.
+
+69
+00:06:59,000 --> 00:07:04,000
+ Which we will be treating as an initial investment in our calculations.
+
+70
+00:07:04,000 --> 00:07:09,000
+ We have an annual operating cost, we have a salvage value and we have a life of three years.
+
+71
+00:07:09,000 --> 00:07:17,000
+ Here we have our initial investment, annual operating cost, salvage value and we have our life.
+
+72
+00:07:17,000 --> 00:07:18,000
+ What does it mean?
+
+73
+00:07:18,000 --> 00:07:25,000
+ It means that these things that you see that are, so here, maybe a bit confusing.
+
+74
+00:07:25,000 --> 00:07:32,000
+ So all these values are not important in our study anymore, in our replacement study.
+
+75
+00:07:32,000 --> 00:07:37,000
+ We don't need them, we are not interested in them anymore.
+
+76
+00:07:44,000 --> 00:07:48,000
+ So this is a summary of what we have been saying.
+
+77
+00:07:48,000 --> 00:07:52,000
+ So you must assign an investment cost for keeping the defender asset.
+
+78
+00:07:52,000 --> 00:07:57,000
+ That's the consequence of that consulting viewpoint that we take.
+
+79
+00:07:57,000 --> 00:08:02,000
+ We have to, a current marketplace value and of course the challenger.
+
+80
+00:08:02,000 --> 00:08:11,000
+ Well, it's just the numbers that we have for that new machine or equipment or whatever.
+
+81
+00:08:11,000 --> 00:08:14,000
+ That we want to replace.
+

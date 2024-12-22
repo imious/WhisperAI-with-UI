@@ -1,0 +1,228 @@
+1
+00:00:00,000 --> 00:00:11,000
+ In the handbook the chapter on project financing also includes non-economic attributes but we already covered that when we talked about cost benefit analysis.
+
+2
+00:00:11,000 --> 00:00:15,000
+ Let's have a look at two things.
+
+3
+00:00:15,000 --> 00:00:18,000
+ The cost of capital and the MAR.
+
+4
+00:00:18,000 --> 00:00:22,000
+ We will not go into detail on debt or equity at all.
+
+5
+00:00:22,000 --> 00:00:30,000
+ Not because they are not important, it's very interesting but to my feeling it's a bit out of scope of our engineering economy course.
+
+6
+00:00:32,000 --> 00:00:36,000
+ So we already met the cost of capital.
+
+7
+00:00:36,000 --> 00:00:43,000
+ The cost of capital is the weighted average interest rate based on debt and equity sources.
+
+8
+00:00:43,000 --> 00:00:46,000
+ So the WAC, the weighted cost of capital.
+
+9
+00:00:46,000 --> 00:00:52,000
+ And debt capital is the capital that we borrow outside the company.
+
+10
+00:00:52,000 --> 00:00:56,000
+ Equity is our own funds and returned earnings.
+
+11
+00:00:56,000 --> 00:01:01,000
+ We already discussed the MAR, minimum deductive rate of return.
+
+12
+00:01:01,000 --> 00:01:07,000
+ And we pointed out that that MAR takes into account the cost of capital.
+
+13
+00:01:07,000 --> 00:01:10,000
+ It should definitely be higher.
+
+14
+00:01:10,000 --> 00:01:15,000
+ In the example that you see there, the cost of capital is 8%.
+
+15
+00:01:15,000 --> 00:01:18,000
+ Then we definitely expect more.
+
+16
+00:01:18,000 --> 00:01:26,000
+ We will not be happy if the return of a project would be lower than that.
+
+17
+00:01:30,000 --> 00:01:32,000
+ So this is a very important slide.
+
+18
+00:01:32,000 --> 00:01:35,000
+ To the right you see again the weighted average cost of capital.
+
+19
+00:01:35,000 --> 00:01:37,000
+ And then to the left our MAR.
+
+20
+00:01:37,000 --> 00:01:41,000
+ We already spoke about the MAR a few times.
+
+21
+00:01:41,000 --> 00:01:48,000
+ We pointed out that the MAR cannot be found somewhere in literature or in the internet or in handbooks.
+
+22
+00:01:48,000 --> 00:01:52,000
+ But that the MAR is something that the company is deciding for themselves.
+
+23
+00:01:52,000 --> 00:01:55,000
+ And now what are the factors affecting the MAR?
+
+24
+00:01:55,000 --> 00:01:57,000
+ Project risks.
+
+25
+00:01:57,000 --> 00:02:01,000
+ The higher the perceived risk, the higher the MAR will be set.
+
+26
+00:02:01,000 --> 00:02:03,000
+ Investment opportunities.
+
+27
+00:02:03,000 --> 00:02:10,000
+ If a company sees investment opportunities, maybe market opportunities, they could lower the MAR temporarily.
+
+28
+00:02:10,000 --> 00:02:15,000
+ Government interventions can cause companies to raise or lower the MAR.
+
+29
+00:02:15,000 --> 00:02:19,000
+ Government interventions like tariffs, subsidies, etc.
+
+30
+00:02:19,000 --> 00:02:22,000
+ Also the tax structure has an impact.
+
+31
+00:02:22,000 --> 00:02:28,000
+ If corporate tax rates are rising, then also the MAR will be higher.
+
+32
+00:02:28,000 --> 00:02:30,000
+ Limited capital.
+
+33
+00:02:30,000 --> 00:02:34,000
+ As we have less and less capital, the MAR will increase.
+
+34
+00:02:34,000 --> 00:02:37,000
+ And also competition.
+
+35
+00:02:37,000 --> 00:02:42,000
+ Stronger or not competition at all.
+
+36
+00:02:42,000 --> 00:02:48,000
+ Or lowered competition can cause companies to raise or lower the MAR.
+
+37
+00:02:48,000 --> 00:02:53,000
+ So these are a few important factors that are affecting the MAR.
+
+38
+00:02:53,000 --> 00:02:57,000
+ And I expect you to know about them.
+
+39
+00:02:57,000 --> 00:02:59,000
+ An example of a WAC calculation.
+
+40
+00:02:59,000 --> 00:03:01,000
+ Weight at average cost of capital.
+
+41
+00:03:01,000 --> 00:03:04,000
+ We already saw a similar example earlier on in the course.
+
+42
+00:03:04,000 --> 00:03:12,000
+ So here we are having a case study about a company that is specializing in producing cold weather clothing and accessories.
+
+43
+00:03:12,000 --> 00:03:17,000
+ And it's expanding its ski jacket and wood stock manufacturing facilities.
+
+44
+00:03:17,000 --> 00:03:20,000
+ It plans to borrow 2.5 million at 7% interest.
+
+45
+00:03:20,000 --> 00:03:25,000
+ Issue stock worth of 4 million worth at 5.9%.
+
+46
+00:03:25,000 --> 00:03:31,000
+ And use 1.5 million of retained earnings at 5.1% to finance the project.
+
+47
+00:03:31,000 --> 00:03:35,000
+ Then the question is, determine the company's WAC.
+
+48
+00:03:35,000 --> 00:03:42,000
+ Well we know that the total project cost is 4 plus 1.5 plus 2.5 is 8 million.
+
+49
+00:03:42,000 --> 00:03:48,000
+ Then if we see the 5.9% will be used for 4 million.
+
+50
+00:03:48,000 --> 00:03:50,000
+ So that's half of it.
+
+51
+00:03:50,000 --> 00:03:56,000
+ So 4 divided by 8 times 5.9 is our first term.
+
+52
+00:03:56,000 --> 00:04:03,000
+ Then 1.5 over 8 we have at the 5.1%.
+
+53
+00:04:03,000 --> 00:04:09,000
+ And then the remaining 2.5 of the 8 will be financed at 7%.
+
+54
+00:04:09,000 --> 00:04:13,000
+ So that brings our WAC to 6.09.
+
+55
+00:04:13,000 --> 00:04:20,000
+ We will not talk about debt capital and equity capital as I consider it.
+
+56
+00:04:20,000 --> 00:04:22,000
+ As I already mentioned.
+
+57
+00:04:22,000 --> 00:04:32,000
+ To be outside of the scope maybe just one word of advice that a good balance between debt and equity funding is to be recommended.
+

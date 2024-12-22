@@ -1,0 +1,164 @@
+1
+00:00:00,000 --> 00:00:11,000
+ So this is a challenge for you, I mean a challenge that is not in the book but that is challenging your critical thinking.
+
+2
+00:00:11,000 --> 00:00:21,000
+ If you google replacement models or you go to SignDirect and you look for replacement models you find a different type of models.
+
+3
+00:00:21,000 --> 00:00:25,000
+ Well, I don't know, it's up to you to decide whether they are different or similar.
+
+4
+00:00:26,000 --> 00:00:31,000
+ I give here two examples, so we have here a book, maintenance, replacement and reliability.
+
+5
+00:00:31,000 --> 00:00:39,000
+ And here we have a survey of replacement models and there are thousands of maintenance replacement models around.
+
+6
+00:00:39,000 --> 00:00:43,000
+ So let's have a look what type of questions do these models answer.
+
+7
+00:00:44,000 --> 00:00:50,000
+ Well, for instance, I have an asset for which maintenance costs keep increasing every year.
+
+8
+00:00:50,000 --> 00:00:55,000
+ Or I have an asset for which the probability of failure keeps increasing with time.
+
+9
+00:00:55,000 --> 00:00:58,000
+ What is the best time to replace this asset with a new one?
+
+10
+00:00:58,000 --> 00:01:07,000
+ Or if I use a replacement policy, should I base myself on asset age or maybe fixed period?
+
+11
+00:01:08,000 --> 00:01:20,000
+ And if I have a set of identical devices, should I then replace them one by one or should I invest more money and replace them all at once?
+
+12
+00:01:20,000 --> 00:01:23,000
+ So these are the type of questions.
+
+13
+00:01:23,000 --> 00:01:27,000
+ I have a very small example of such a model for you, a very simple one.
+
+14
+00:01:27,000 --> 00:01:35,000
+ So we are talking about small welding robots costing 7000 euros, maximum use for life is 5 years,
+
+15
+00:01:35,000 --> 00:01:43,000
+ maintenance costs are CK, which are expressed as 1000K and K being the equipment age.
+
+16
+00:01:43,000 --> 00:01:50,000
+ We have some historical data and supplier information on probabilities of unrepairable failures that are given there.
+
+17
+00:01:50,000 --> 00:01:58,000
+ So first year is 10%, second year is 10%, third year is 20% and so on.
+
+18
+00:01:58,000 --> 00:02:02,000
+ And yearly we can decide whether to replace the equipment by a new one or not.
+
+19
+00:02:02,000 --> 00:02:07,000
+ And then they ask what is the optimum replacement timing.
+
+20
+00:02:07,000 --> 00:02:22,000
+ To the right you see the expected life of the robot using the failure probabilities and the expected costs that we have that are associated with that life.
+
+21
+00:02:23,000 --> 00:02:36,000
+ And then there we see that also the costs that we compute, expected costs divided by expected life.
+
+22
+00:02:36,000 --> 00:02:44,000
+ And then we see that here after 4 years seems to be the best time to replace the robot.
+
+23
+00:02:45,000 --> 00:02:50,000
+ This is a repair limit problem, that is what it is called in literature.
+
+24
+00:02:50,000 --> 00:02:53,000
+ It is one of the types of replacement models.
+
+25
+00:02:53,000 --> 00:03:00,000
+ So basically what we do is we replace the robot when maintenance costs become too high.
+
+26
+00:03:00,000 --> 00:03:07,000
+ The theory that is responsible for these type of formulas is called renewal theory.
+
+27
+00:03:07,000 --> 00:03:15,000
+ It is part of operations research models specifically developed for this type of problems.
+
+28
+00:03:15,000 --> 00:03:18,000
+ There are two hypotheses.
+
+29
+00:03:18,000 --> 00:03:24,000
+ One hypothesis is as good as new.
+
+30
+00:03:24,000 --> 00:03:29,000
+ Meaning that each time of course if you buy a new robot you have a new robot.
+
+31
+00:03:29,000 --> 00:03:30,000
+ That is fine.
+
+32
+00:03:30,000 --> 00:03:39,000
+ But it is also saying that if you do corrective maintenance the robot is as good as new.
+
+33
+00:03:39,000 --> 00:03:41,000
+ Which is not always maybe realistic.
+
+34
+00:03:41,000 --> 00:03:43,000
+ But we are not considering that here.
+
+35
+00:03:43,000 --> 00:03:48,000
+ But if you do preventive maintenance also you make the machine as good as new.
+
+36
+00:03:48,000 --> 00:03:52,000
+ And then we can use this formula which we did there.
+
+37
+00:03:52,000 --> 00:03:58,000
+ So my question to you is, it is called replacement model.
+
+38
+00:03:58,000 --> 00:04:04,000
+ It is about replacing assets, finding the right time to replace an asset.
+
+39
+00:04:04,000 --> 00:04:09,000
+ What differences, what similarities do you see?
+
+40
+00:04:09,000 --> 00:04:13,000
+ So it just requires some critical thinking of you.
+
+41
+00:04:13,000 --> 00:04:18,000
+ We will come back to that with the exercises.
+

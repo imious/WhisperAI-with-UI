@@ -1,0 +1,228 @@
+1
+00:00:00,000 --> 00:00:21,000
+ So far in this core of an engineering economy we have been focusing on investments, trying to decide whether an investment is interesting or not, comparing investments mainly based on a cost basis or revenue basis or financial arguments.
+
+2
+00:00:21,000 --> 00:00:35,000
+ We also try to include some non-financial arguments, if we use multi-criteria decision making. Now we have another chapter, a chapter on cost estimation. Cost estimation is an important part of engineering economy.
+
+3
+00:00:35,000 --> 00:01:02,000
+ The main part of this chapter will be on cost estimation, but before we start seeing some techniques we will talk in general about cost estimation and we will add a new thing, learning curve. It's not in the book but I consider it very important so that's why it's added to this chapter and I also expect you to know about it for the exam.
+
+4
+00:01:02,000 --> 00:01:18,000
+ In all problems studied so far we had costs, sometimes also revenues. Now making estimates for the revenues usually is something that marketing or sales does but engineers have the responsibility for cost estimation.
+
+5
+00:01:18,000 --> 00:01:32,000
+ Basically we had two types of costs, we had the first cost, the initial cost and we have the annual operating costs, as you see in the grey rectangle, sometimes also we have salvage costs.
+
+6
+00:01:32,000 --> 00:01:46,000
+ So questions that need to be solved or what cost components must be estimated, how accurate should estimates be, what approaches can be used and what techniques can be used.
+
+7
+00:01:46,000 --> 00:02:07,000
+ Very basic management accounting thing, there are two main approaches to determine the price of a product once you know the cost. The first is a bottom up approach which treats the final cost as independent output.
+
+8
+00:02:07,000 --> 00:02:21,000
+ So we add up all the costs that are needed to make a product, then we add indirect costs, we add desired profit and we come to the required market price.
+
+9
+00:02:21,000 --> 00:02:36,000
+ In a design to cost approach or a target cost approach we go the other way around, we look around on the market, we set a competitive price and then we try to make it.
+
+10
+00:02:36,000 --> 00:02:54,000
+ We say competitive price and we would like to make so much profit so this is our target cost. Then we try to determine these cost estimates before we actually start building the product.
+
+11
+00:02:54,000 --> 00:03:07,000
+ These slides give you a little bit more information on bottom up approach and the top down approach or a design to cost approach but in fact I think most of you saw it in a course on management accounting.
+
+12
+00:03:07,000 --> 00:03:18,000
+ It's a bit beyond the scope of engineering economy but later on in one of the estimation methods we will come across direct and indirect costs, that's why it's here.
+
+13
+00:03:18,000 --> 00:03:31,000
+ Target cost is linked to value engineering. Value engineering has to do with trying to minimize cost by focusing on what is really valuable.
+
+14
+00:03:31,000 --> 00:03:44,000
+ So questions like or all the functions that we had in mind are really required by the customer. Can we use less expensive material? Can we reduce the number of different materials? Can a design be simplified?
+
+15
+00:03:44,000 --> 00:04:01,000
+ So an example here is for remote control. So to the left you see a very sophisticated complicated one but if you really focus on value, so what is important for the customer, what is the customer willing to pay for, we end up with a far simpler design.
+
+16
+00:04:01,000 --> 00:04:15,000
+ Also in facility design you can use value engineering methodologies for simplifying and just making your design cheaper while still as functional as requested.
+
+17
+00:04:15,000 --> 00:04:30,000
+ Now in terms of accuracy of estimates, well it's our estimate so no estimate is 100% accurate. It should be accurate enough with reasonable effort.
+
+18
+00:04:30,000 --> 00:04:50,000
+ How accurate enough or how to translate accurate enough in numbers is not easy but usually in a first conceptual phase we are happy if we have an order of magnitude estimate in the range of 20%, 30% of actual cost.
+
+19
+00:04:50,000 --> 00:05:03,000
+ Once we go to the detailed design phase we want to have an accuracy of 5%. Why don't we go for a detailed estimate in all phases? Well because it's taking too much time and effort.
+
+20
+00:05:03,000 --> 00:05:17,000
+ So if you just want to have a first scoping or feasibility study we go for a rough estimate. If you want to start building a product or building an installation we go for a detailed estimate.
+
+21
+00:05:20,000 --> 00:05:42,000
+ What we need if we want to make estimates or work breakdown structures. Here you see an example for a commercial building project where we have physical work elements like the site work and the foundation and then we have functional work elements like for instance mechanical systems, electrical systems.
+
+22
+00:05:42,000 --> 00:05:58,000
+ So to help us making estimates we will break down the whole in pieces and it's easier to make an estimate for a piece than just a general estimate for the whole structure.
+
+23
+00:05:58,000 --> 00:06:15,000
+ Now let's have a look at learning curves. So this is an extra thing, it's not in the book. What is a learning curve? Well a learning curve is a line displaying the relationship between the unit production time or unit production cost and the cumulative number of units produced.
+
+24
+00:06:15,000 --> 00:06:36,000
+ They have a wide range of applications in the business world. Its origin is in the airplane industry. Now it's used in manufacturing for new tasks for instance robotics or co-bots, collaborative robots, in distribution, in healthcare, in machine learning.
+
+25
+00:06:36,000 --> 00:06:57,000
+ So they are quite popular. There are two types, individual learning which is practice makes perfect focusing on the individual operator or individual system and organizational learning where besides the individual learning also changes the administration and equipment and product design are taking you into account.
+
+26
+00:06:57,000 --> 00:07:16,000
+ Important in learning curve theory are the three assumptions. One assumption is that amount of time required to complete a task or unit or a product will be less each time the task is undertaken. Amount of time can also be production cost.
+
+27
+00:07:16,000 --> 00:07:32,000
+ Let's just keep time. Another assumption is that that unit time will decrease at a decreasing rate. And a third assumption is that the reduction in time will follow a predictable pattern.
+
+28
+00:07:32,000 --> 00:07:59,000
+ I've shown you some examples. This is an example for co-bots. Cobots are used here, sorry it's a Dutch article but I like it. They use co-bots to improve learning for workers with disabilities so that they can more easily do more complex tasks.
+
+29
+00:07:59,000 --> 00:08:20,000
+ Other examples can be found in implications for new technology. Mind that new technology can be a technical system, can also be a software system and these are more recent articles. They are used a lot for learning curves in robot assisted surgery.
+
+30
+00:08:20,000 --> 00:08:40,000
+ Robot assisted surgery is quite different from open surgery. The surgeon has to manipulate robot arms and instruments and that can be quite counterintuitive like pushing to the right and then the instrument moves to the right or to the left.
+
+31
+00:08:40,000 --> 00:09:00,000
+ It's not like in open surgery so there is a learning time. Learning curves are good to measure the proficiency of the surgeon to see whether a novice yes or no has reached a certain level of proficiency for instance.
+
+32
+00:09:00,000 --> 00:09:18,000
+ Typical formula you see there. So U is the output unit number so if U is 8 for instance then it's the 8th unit that has been produced. ZU is the number of input resources needed to produce that unit.
+
+33
+00:09:18,000 --> 00:09:38,000
+ K is the number of input resources needed to produce the first output unit. S is the learning curve slope parameter expressed as a decimal or percentage so 0.9 or 90% learning curve. It's also sometimes called the learning rate or improvement rate.
+
+34
+00:09:38,000 --> 00:09:53,000
+ And N being log S over log 2 is a learning curve exponent. So we assume here that a constant percentage in reduction in input resources occurs each time the output quantity is doubled.
+
+35
+00:09:53,000 --> 00:10:09,000
+ And here you see some typical learning curves. Maybe a numerical example. If we are looking for Z for the 8th unit so Z8 and an 80% learning curve.
+
+36
+00:10:09,000 --> 00:10:33,000
+ Well if we apply this formula we have Z8 is K8 the 8 here to the power N. N is log 0.8 over log 2 that's minus 0.322 so that means that we come with ZE is K times 0.51.
+
+37
+00:10:33,000 --> 00:10:47,000
+ Now that double well that means that constant reduction so going from K1 to K2, from K2 to K4, from K4 to K8 each time have that percentage.
+
+38
+00:10:47,000 --> 00:11:00,000
+ So and if you just compute it that way so 0.8 times 0.8 times 0.8 we see that we exactly indeed have the 0.51 factor.
+
+39
+00:11:01,000 --> 00:11:13,000
+ Different curves are possible. We usually use a power law but different curves are possible. You find a lot in literature different curves.
+
+40
+00:11:13,000 --> 00:11:22,000
+ They all obey these three assumptions by the way that we just mentioned. These are some examples. I think they're quite interesting.
+
+41
+00:11:23,000 --> 00:11:33,000
+ You see the learning curve slope where we talked about. You see the example in the left column and you also see the improvement parameter.
+
+42
+00:11:33,000 --> 00:11:40,000
+ So for instance we are talking about price for the model T4 production and the parameter is units produced.
+
+43
+00:11:40,000 --> 00:11:48,000
+ For instance in 3 the equipment maintenance, general electrics there we are talking about average time needed to replace a group of parts.
+
+44
+00:11:48,000 --> 00:11:55,000
+ And there the unit parameter that is the cumulative one I mean is a number of replacements.
+
+45
+00:11:55,000 --> 00:12:03,000
+ For heart transplants for instance the improvement parameter is well the patient's dying not dying within one year.
+
+46
+00:12:03,000 --> 00:12:09,000
+ And the cumulative parameter is the surgical experience measured in transplants completed.
+
+47
+00:12:10,000 --> 00:12:17,000
+ A very simple example. So there's a student team designing a car for a national competition.
+
+48
+00:12:17,000 --> 00:12:22,000
+ The time required for the team to assemble the first car is 100 hours.
+
+49
+00:12:22,000 --> 00:12:31,000
+ Their improvement or learning rate is 0.8 which means that as the output doubled their time to assemble a car is reduced by 20 percent as we just saw.
+
+50
+00:12:31,000 --> 00:12:37,000
+ So use this information to determine the time it will take them to assemble the tenth car.
+
+51
+00:12:37,000 --> 00:12:51,000
+ The total time required to assemble the first ten cars and estimated cumulative average time to the cumulative average sorry assembly time for the first ten cars.
+
+52
+00:12:51,000 --> 00:12:59,000
+ So we just fill out the formulas. We find that Z10 takes 47.6 hours.
+
+53
+00:12:59,000 --> 00:13:14,000
+ The time to produce 10 units well then we have to make the sum over the ZU's where U goes from 1 to X and in this case X is 10 which brings us to 631 hours.
+
+54
+00:13:14,000 --> 00:13:26,000
+ And then the cumulative average time for X units is then CX is TX over X and then we get of course 63.1 hours.
+
+55
+00:13:29,000 --> 00:13:37,000
+ This is another illustration I told you that it's also used in surgery so this is an example from surgery.
+
+56
+00:13:37,000 --> 00:13:42,000
+ You see the graphs, you see the table and you see also that it's another formula.
+
+57
+00:13:42,000 --> 00:13:47,000
+ It's a similar formula but it's a slightly different formula from the one that we were using.
+

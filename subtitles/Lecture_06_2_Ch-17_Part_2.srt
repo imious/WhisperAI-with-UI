@@ -1,0 +1,740 @@
+1
+00:00:00,000 --> 00:00:08,000
+ Here a complexity is added to our computation of taxable income.
+
+2
+00:00:08,000 --> 00:00:13,000
+ Namely we work with depreciation, recapture and capital gain.
+
+3
+00:00:13,000 --> 00:00:18,000
+ I think the easiest way to understand is to look at this figure.
+
+4
+00:00:18,000 --> 00:00:21,000
+ So we have here bottom line, 0.
+
+5
+00:00:21,000 --> 00:00:26,000
+ We have our first cost B, or our unadjusted basis B as we called it.
+
+6
+00:00:26,000 --> 00:00:29,000
+ And then we have a book value in year T.
+
+7
+00:00:29,000 --> 00:00:33,000
+ Now suppose that we are selling an asset, then we have three situations that can happen.
+
+8
+00:00:33,000 --> 00:00:40,000
+ Either the selling price is higher than our first cost,
+
+9
+00:00:40,000 --> 00:00:44,000
+ our selling price is between the first cost and the book value,
+
+10
+00:00:44,000 --> 00:00:49,000
+ or our selling price is lower than our book value.
+
+11
+00:00:49,000 --> 00:00:57,000
+ And these three situations give rise to three different values.
+
+12
+00:00:57,000 --> 00:01:05,000
+ If our selling price is lower than our book value, we are talking about a capital loss.
+
+13
+00:01:05,000 --> 00:01:16,000
+ If our selling price is somewhere between the first cost and our book value,
+
+14
+00:01:16,000 --> 00:01:22,000
+ we are talking about a depreciation recapture, sometimes called an order gain.
+
+15
+00:01:22,000 --> 00:01:30,000
+ And in the situation that we are very lucky, that we get more money than we initially paid,
+
+16
+00:01:30,000 --> 00:01:33,000
+ we are talking about a capital gain.
+
+17
+00:01:33,000 --> 00:01:36,000
+ So these are the three values that we have to take into account.
+
+18
+00:01:36,000 --> 00:01:46,000
+ So that means that our taxable income relation is updated and we add these amounts.
+
+19
+00:01:46,000 --> 00:01:53,000
+ Of course, we will see what impact it has.
+
+20
+00:01:53,000 --> 00:01:59,000
+ Obviously in a situation you cannot have at the same time a capital loss and a net capital gain.
+
+21
+00:01:59,000 --> 00:02:05,000
+ So we will have just an example.
+
+22
+00:02:05,000 --> 00:02:10,000
+ So it might seem complicated, but in fact it's not.
+
+23
+00:02:10,000 --> 00:02:19,000
+ So we are talking about a laser based system that was installed three years ago for a B value of 150,000.
+
+24
+00:02:19,000 --> 00:02:24,000
+ And we can sell it now for 180,000.
+
+25
+00:02:24,000 --> 00:02:32,000
+ Based on a five-year macros recovery, the book value currently is 43,200.
+
+26
+00:02:32,000 --> 00:02:40,000
+ The gross income for this year is an 800,000 and annual operating expenses are 50,000.
+
+27
+00:02:40,000 --> 00:02:50,000
+ So we are asked to determine the taxable income and then the taxes if we have a tax rate of 34%.
+
+28
+00:02:50,000 --> 00:02:53,000
+ So if we sell the system now.
+
+29
+00:02:53,000 --> 00:02:56,000
+ So let's see what we have.
+
+30
+00:02:56,000 --> 00:03:01,000
+ So we have the situation in here.
+
+31
+00:03:01,000 --> 00:03:04,000
+ So this is zero.
+
+32
+00:03:04,000 --> 00:03:11,000
+ Our book value is 43,200.
+
+33
+00:03:11,000 --> 00:03:17,000
+ And our B value was 150,000.
+
+34
+00:03:17,000 --> 00:03:23,000
+ And our selling price is 180,000.
+
+35
+00:03:23,000 --> 00:03:28,000
+ So what do we have?
+
+36
+00:03:28,000 --> 00:03:33,000
+ Well we have a depreciation recapture.
+
+37
+00:03:33,000 --> 00:03:37,000
+ And we have a capital gain.
+
+38
+00:03:37,000 --> 00:03:47,000
+ So that means that we will have to add that to our taxable income formula.
+
+39
+00:03:47,000 --> 00:03:53,000
+ So we have our 800,000 for our gross income.
+
+40
+00:03:53,000 --> 00:03:58,000
+ We have our 50,000 for our operating expenses.
+
+41
+00:03:58,000 --> 00:04:01,000
+ We have our 28,000 for our depreciation.
+
+42
+00:04:01,000 --> 00:04:06,000
+ And we have our depreciation recapture and capital gain.
+
+43
+00:04:06,000 --> 00:04:13,000
+ And that gives us a taxable income of 858,000 times our tax rate.
+
+44
+00:04:13,000 --> 00:04:19,000
+ That gives us 290,720.
+
+45
+00:04:19,000 --> 00:04:21,000
+ And what you see here.
+
+46
+00:04:21,000 --> 00:04:28,000
+ Well if you would not have sold the item or the asset now.
+
+47
+00:04:28,000 --> 00:04:31,000
+ We would have a different taxable income.
+
+48
+00:04:31,000 --> 00:04:37,000
+ Because we would not have had that depreciation, recovery and capital gain.
+
+49
+00:04:37,000 --> 00:04:40,000
+ Now an after tax evaluation.
+
+50
+00:04:40,000 --> 00:04:43,000
+ Well this is a full slide.
+
+51
+00:04:43,000 --> 00:04:45,000
+ But in fact what it's saying is.
+
+52
+00:04:45,000 --> 00:04:49,000
+ Well just act the same way as you would do.
+
+53
+00:04:49,000 --> 00:04:52,000
+ As you did with the before taxes.
+
+54
+00:04:52,000 --> 00:04:53,000
+ The guidelines are still the same.
+
+55
+00:04:53,000 --> 00:04:55,000
+ For instance present word.
+
+56
+00:04:55,000 --> 00:04:57,000
+ If it's positive.
+
+57
+00:04:57,000 --> 00:05:00,000
+ Well it's a viable project.
+
+58
+00:05:00,000 --> 00:05:02,000
+ If you have more than one.
+
+59
+00:05:02,000 --> 00:05:04,000
+ And they are mutually exclusive.
+
+60
+00:05:04,000 --> 00:05:08,000
+ Then the one with the highest or the best present word value will win.
+
+61
+00:05:08,000 --> 00:05:15,000
+ We also still have that equal in terms of present word comparison.
+
+62
+00:05:15,000 --> 00:05:18,000
+ We still have that equal service requirement.
+
+63
+00:05:18,000 --> 00:05:21,000
+ Also for the ROAR we still have the same things.
+
+64
+00:05:21,000 --> 00:05:27,000
+ That the ROAR should be better than the after tax more.
+
+65
+00:05:27,000 --> 00:05:34,000
+ And also that the best one we need that incremental analysis.
+
+66
+00:05:34,000 --> 00:05:37,000
+ So not a lot of new things.
+
+67
+00:05:37,000 --> 00:05:41,000
+ We can estimate the after tax ROAR.
+
+68
+00:05:41,000 --> 00:05:43,000
+ And here you see a simple numerical example.
+
+69
+00:05:43,000 --> 00:05:46,000
+ So we have the values given here.
+
+70
+00:05:46,000 --> 00:05:51,000
+ For P, for GI minus OE.
+
+71
+00:05:51,000 --> 00:05:53,000
+ For N, for D, for TE.
+
+72
+00:05:53,000 --> 00:06:07,000
+ And if we set up the annual word analysis before the present word relationship.
+
+73
+00:06:07,000 --> 00:06:12,000
+ For our I star, our ROAR.
+
+74
+00:06:12,000 --> 00:06:22,000
+ We get a before tax one of 28.65%.
+
+75
+00:06:22,000 --> 00:06:27,000
+ After ROAR we would say well this is this.
+
+76
+00:06:27,000 --> 00:06:32,000
+ And we multiply it by times one minus the tax rate.
+
+77
+00:06:32,000 --> 00:06:35,000
+ And it's giving us 17.19.
+
+78
+00:06:35,000 --> 00:06:42,000
+ Now if you do the analysis again after tax you would end up with 18.03.
+
+79
+00:06:42,000 --> 00:06:47,000
+ So estimation is in most cases relatively good.
+
+80
+00:06:47,000 --> 00:06:51,000
+ But of course it's not an exact thing.
+
+81
+00:06:51,000 --> 00:06:54,000
+ An after tax analysis.
+
+82
+00:06:54,000 --> 00:06:59,000
+ Example, so we have our B value to an adjusted basis.
+
+83
+00:06:59,000 --> 00:07:01,000
+ We have a salvage value of zero.
+
+84
+00:07:01,000 --> 00:07:03,000
+ We have a lifetime of five years.
+
+85
+00:07:03,000 --> 00:07:10,000
+ And per year we have a revenue, we have our operating expenses and we have a depreciation.
+
+86
+00:07:10,000 --> 00:07:16,000
+ And we have an effective tax rate of 0.184.
+
+87
+00:07:16,000 --> 00:07:26,000
+ Before taxes we have our revenue, we have our expenses, we have our base value, we have our salvage value which is zero.
+
+88
+00:07:27,000 --> 00:07:30,000
+ So we can compute the cash flow before taxes.
+
+89
+00:07:30,000 --> 00:07:37,000
+ And we can, based on this cash flow series, we can determine our rate of return.
+
+90
+00:07:37,000 --> 00:07:42,000
+ Okay, let's do it for the after taxes.
+
+91
+00:07:42,000 --> 00:07:45,000
+ We have our depreciation that comes into play.
+
+92
+00:07:45,000 --> 00:07:46,000
+ Taxable income.
+
+93
+00:07:46,000 --> 00:07:54,000
+ And the taxable income is then based on those two values plus of course our depreciation.
+
+94
+00:07:54,000 --> 00:07:59,000
+ We have our tax rates and we can compute our cash flow after taxes.
+
+95
+00:07:59,000 --> 00:08:05,000
+ If we have a look at this cash flow series we can again determine the ROAR.
+
+96
+00:08:05,000 --> 00:08:13,000
+ And if we would have used an approximation, so we would have gone from here to there.
+
+97
+00:08:13,000 --> 00:08:19,000
+ We would have our tax rate, we would have had 35% instead of the 36%.
+
+98
+00:08:19,000 --> 00:08:31,000
+ So here in this case you could argue that this is a lot of work for a very close internal rate of return difference.
+
+99
+00:08:31,000 --> 00:08:36,000
+ Before and after tax replacement study.
+
+100
+00:08:36,000 --> 00:08:42,000
+ I would definitely urge you to have a very close look at it.
+
+101
+00:08:43,000 --> 00:08:51,000
+ Also in the workshops there is an example on a before and after tax replacement study for a company called Apple Crisp.
+
+102
+00:08:51,000 --> 00:09:06,000
+ Have a look at it because this is a very complete exercise in the sense that most of the elements that we have been talking about before are coming back here.
+
+103
+00:09:06,000 --> 00:09:10,000
+ So if you can solve an exercise like that you are good for the exam.
+
+104
+00:09:10,000 --> 00:09:13,000
+ What are we talking about here?
+
+105
+00:09:13,000 --> 00:09:16,000
+ So we are talking about Mid-continent Power Authority.
+
+106
+00:09:16,000 --> 00:09:20,000
+ They purchased emission control equipment three years ago for 600,000.
+
+107
+00:09:20,000 --> 00:09:28,000
+ They would like to replace this old equipment by a newer one and the market value for the old currently used equipment is 400,000.
+
+108
+00:09:28,000 --> 00:09:34,000
+ Effective tax rate is 34%.
+
+109
+00:09:34,000 --> 00:09:39,000
+ And a simple straight line depreciation with a salvage value of 0 can be used.
+
+110
+00:09:39,000 --> 00:09:51,000
+ So when they are asking to perform a before tax replacement analysis with a MAR of 10% and B perform an after tax replacement analysis with a MAR of 7%.
+
+111
+00:09:52,000 --> 00:09:58,000
+ You have this nice analysis.
+
+112
+00:09:58,000 --> 00:10:07,000
+ So before taxes it seems that the defender is the most interesting one to keep and after taxes we see that apparently this is still the same.
+
+113
+00:10:07,000 --> 00:10:09,000
+ Let's have a closer look.
+
+114
+00:10:09,000 --> 00:10:18,000
+ Maybe I added some slides compared to what you have in your binder to make it a little bit easier.
+
+115
+00:10:18,000 --> 00:10:21,000
+ So these are the values we have to work with.
+
+116
+00:10:21,000 --> 00:10:26,000
+ We have our current market value for the defender of 400,000.
+
+117
+00:10:26,000 --> 00:10:28,000
+ The first cost was 600,000.
+
+118
+00:10:28,000 --> 00:10:39,000
+ Annual cost is 100,000 and the challenger cost is costing us now 1 million but its annual cost is rather low.
+
+119
+00:10:40,000 --> 00:10:43,000
+ So for our defender.
+
+120
+00:10:43,000 --> 00:10:52,000
+ Well it was originally meant to last for 8 years but it is already 3 years ago that we bought it.
+
+121
+00:10:52,000 --> 00:10:54,000
+ So we have 5 more years left.
+
+122
+00:10:54,000 --> 00:10:56,000
+ We have our expenses.
+
+123
+00:10:56,000 --> 00:11:00,000
+ We have our market value.
+
+124
+00:11:00,000 --> 00:11:04,000
+ Remember replacement analysis is the consultant approach.
+
+125
+00:11:04,000 --> 00:11:06,000
+ And here our consultant view.
+
+126
+00:11:06,000 --> 00:11:10,000
+ We have 0 for our salvage value.
+
+127
+00:11:10,000 --> 00:11:19,000
+ So that means that our cash flow before taxes is 400,000 respectively 100,000.
+
+128
+00:11:19,000 --> 00:11:25,000
+ And if you want to know what the annual worth is.
+
+129
+00:11:25,000 --> 00:11:27,000
+ Well I think you are quite good at it by now.
+
+130
+00:11:27,000 --> 00:11:32,000
+ So now we have our initial amount and then we have our 100,000 annual worth.
+
+131
+00:11:32,000 --> 00:11:38,000
+ And we come with the 205,520.
+
+132
+00:11:38,000 --> 00:11:46,000
+ And in a similar way we do it for our challenger and apparently that is not so interesting.
+
+133
+00:11:46,000 --> 00:11:50,000
+ So I think this is quite a straightforward replacement exercise.
+
+134
+00:11:51,000 --> 00:11:55,000
+ Now here for our after taxes.
+
+135
+00:11:55,000 --> 00:12:03,000
+ I try to make it a little bit more understandable by adding some numbers.
+
+136
+00:12:03,000 --> 00:12:06,000
+ The 1,2,3,4,5 things.
+
+137
+00:12:06,000 --> 00:12:08,000
+ Okay let's have a look.
+
+138
+00:12:08,000 --> 00:12:10,000
+ Well data of course is still the same.
+
+139
+00:12:10,000 --> 00:12:14,000
+ So if we have to do an after tax analysis we need our depreciation.
+
+140
+00:12:15,000 --> 00:12:23,000
+ Important is that the depreciation is based on the initial recovery period of 8 years.
+
+141
+00:12:23,000 --> 00:12:28,000
+ So don't make the mistake of saying well I am looking at 5 years.
+
+142
+00:12:28,000 --> 00:12:33,000
+ So I will divide the 600,000 by 5 to find my depreciation.
+
+143
+00:12:33,000 --> 00:12:35,000
+ It is a mistake that is often made.
+
+144
+00:12:35,000 --> 00:12:38,000
+ Okay so we have our amount of depreciation.
+
+145
+00:12:38,000 --> 00:12:40,000
+ We have our taxable income.
+
+146
+00:12:40,000 --> 00:12:44,000
+ Then we have our taxes which are tax rate times.
+
+147
+00:12:44,000 --> 00:12:47,000
+ Taxable income.
+
+148
+00:12:47,000 --> 00:12:51,000
+ We have our cash flow after taxes.
+
+149
+00:12:51,000 --> 00:12:57,000
+ And for that cash flow after taxes we can compute our annual worth.
+
+150
+00:12:57,000 --> 00:12:59,000
+ I think that is pretty straightforward.
+
+151
+00:13:01,000 --> 00:13:05,000
+ For the challenger we work in a similar way.
+
+152
+00:13:05,000 --> 00:13:08,000
+ So we compute our depreciation.
+
+153
+00:13:08,000 --> 00:13:11,000
+ Here in this case 5 years for 1 million.
+
+154
+00:13:11,000 --> 00:13:14,000
+ That means that we have 200,000.
+
+155
+00:13:14,000 --> 00:13:17,000
+ Now here maybe the taxable income.
+
+156
+00:13:17,000 --> 00:13:19,000
+ Well taxable income.
+
+157
+00:13:19,000 --> 00:13:26,000
+ The 215,000 is operating expenses and depreciation.
+
+158
+00:13:26,000 --> 00:13:30,000
+ But here this is special.
+
+159
+00:13:30,000 --> 00:13:33,000
+ Here we have a depreciation recapture.
+
+160
+00:13:33,000 --> 00:13:39,000
+ We are selling the old equipment.
+
+161
+00:13:39,000 --> 00:13:49,000
+ And that means that we have in this case the selling price is slightly above the book value.
+
+162
+00:13:49,000 --> 00:13:51,000
+ The selling price they give us.
+
+163
+00:13:51,000 --> 00:13:53,000
+ The book value we have to compute.
+
+164
+00:13:53,000 --> 00:13:55,000
+ It is 3 years old.
+
+165
+00:13:55,000 --> 00:14:03,000
+ So we have 600,000 minus 3 years at 75,000.
+
+166
+00:14:03,000 --> 00:14:06,000
+ So we have that is the book value.
+
+167
+00:14:06,000 --> 00:14:12,000
+ And that means that we have a depreciation recapture of 25,000.
+
+168
+00:14:12,000 --> 00:14:15,000
+ Again we compute the taxes.
+
+169
+00:14:15,000 --> 00:14:18,000
+ And again we have our cash flow after taxes.
+
+170
+00:14:18,000 --> 00:14:21,000
+ And again we are computing the annual worth.
+
+171
+00:14:21,000 --> 00:14:27,000
+ So there it is getting pretty straight forward again.
+
+172
+00:14:27,000 --> 00:14:31,000
+ So here this is one of the things that is a little bit difficult here.
+
+173
+00:14:31,000 --> 00:14:34,000
+ And also here it is a bit tricky.
+
+174
+00:14:34,000 --> 00:14:42,000
+ So I think that makes this exercise clearer.
+
+175
+00:14:42,000 --> 00:14:49,000
+ Well it is as for most of the problems you have to solve for this course.
+
+176
+00:14:49,000 --> 00:14:56,000
+ It is not difficult but you have to work carefully step by step and then nothing can go wrong.
+
+177
+00:14:56,000 --> 00:15:00,000
+ This is something we will not discuss further.
+
+178
+00:15:00,000 --> 00:15:03,000
+ It has to do with economic added value.
+
+179
+00:15:03,000 --> 00:15:07,000
+ Which basically is about the fact that people are willing to pay more.
+
+180
+00:15:07,000 --> 00:15:12,000
+ If a manufacturing company for instance has done something with components.
+
+181
+00:15:12,000 --> 00:15:24,000
+ Like the example they give is that consumers are willing to pay more for fries as for raw potatoes.
+
+182
+00:15:24,000 --> 00:15:29,000
+ I mean the value added is an economic value.
+
+183
+00:15:29,000 --> 00:15:35,000
+ Same would be lumber or making wooden tables of it.
+
+184
+00:15:35,000 --> 00:15:40,000
+ But something that we will not go to pursue further.
+
+185
+00:15:40,000 --> 00:15:43,000
+ Okay exercises will come next.
+

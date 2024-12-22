@@ -1,0 +1,248 @@
+1
+00:00:00,000 --> 00:00:06,000
+ Let's have a look at the concept of economic service life which is very important in replacement studies.
+
+2
+00:00:07,000 --> 00:00:15,000
+ It's economic service life, if you see ESL in the context of replacement study it's economic service life, not expected service life.
+
+3
+00:00:16,000 --> 00:00:26,000
+ So basically that's the number of years as we already saw in one of the first slides for which the total annual worth of costs is minimal.
+
+4
+00:00:26,000 --> 00:00:42,000
+ And that total annual worth of costs we compute by the capital recovery and the annual worth of the annual operating costs.
+
+5
+00:00:43,000 --> 00:00:47,000
+ I think you'll remember from chapter 5 and 6, you'll remember this formula.
+
+6
+00:00:48,000 --> 00:00:52,000
+ Here we see it in a little bit of more detail.
+
+7
+00:00:53,000 --> 00:01:06,000
+ So as we have to do a year by year analysis for k years since we have to figure out for what year that total annual worth of cost is minimal.
+
+8
+00:01:07,000 --> 00:01:11,000
+ So we have to do a year by year analysis so we do it for every k years.
+
+9
+00:01:11,000 --> 00:01:18,000
+ So here the k each time is changed and again we have the formula.
+
+10
+00:01:21,000 --> 00:01:28,000
+ Let's have a look, maybe that will be easier so it's a very short story this time.
+
+11
+00:01:29,000 --> 00:01:36,000
+ We have an example about a 3 year old manufacturing process asset, let's call it a manufacturing machine.
+
+12
+00:01:36,000 --> 00:01:41,000
+ And it's considered for early replacement, its current market value is 13,000.
+
+13
+00:01:42,000 --> 00:01:50,000
+ Estimate future market values and annual operating costs for the next 5 years or given in table 11.1, which is this one.
+
+14
+00:01:53,000 --> 00:02:00,000
+ And now the question is what is the economic service life of this defender if the interest rate is 10%.
+
+15
+00:02:01,000 --> 00:02:08,000
+ So the table for 10% I put it here, it's a bit more convenient for computations.
+
+16
+00:02:09,000 --> 00:02:13,000
+ Now we have to do a period by period, year by year analysis.
+
+17
+00:02:14,000 --> 00:02:19,000
+ I repeated the data there.
+
+18
+00:02:19,000 --> 00:02:24,000
+ So year by year analysis, easy.
+
+19
+00:02:25,000 --> 00:02:32,000
+ We draw the cash flow diagram for k is 1 years, for k is 2 years, for k is 3 years.
+
+20
+00:02:33,000 --> 00:02:36,000
+ Similarly for k is 4 years, k is 5 years.
+
+21
+00:02:37,000 --> 00:02:44,000
+ And we compute annual worth, which is not so difficult like here if you see for k1 we have this initial amount.
+
+22
+00:02:44,000 --> 00:02:50,000
+ We have the salvage value, the market value, called there.
+
+23
+00:02:51,000 --> 00:02:59,000
+ We have our annual operating costs and I think you are quite good at formulating these equations by now.
+
+24
+00:03:00,000 --> 00:03:03,000
+ And we have minus 6,800.
+
+25
+00:03:04,000 --> 00:03:08,000
+ Then for k years, well we have of course this still remains the same.
+
+26
+00:03:09,000 --> 00:03:15,000
+ We have our annual operating costs for the first year, annual operating costs for the second year and we have a new salvage value.
+
+27
+00:03:16,000 --> 00:03:25,000
+ And again we make our computations and then we do the whole thing again for 3 years, for 4 years, for 5 years.
+
+28
+00:03:26,000 --> 00:03:36,000
+ And then we see that what we look at is, or what we find is that for 3 years we have our economic service life.
+
+29
+00:03:39,000 --> 00:03:42,000
+ This is a solution by computer, by Excel.
+
+30
+00:03:43,000 --> 00:03:46,000
+ This is a very similar example.
+
+31
+00:03:47,000 --> 00:03:53,000
+ It comes from the 7th edition of the book, the previous one was from the 6th edition.
+
+32
+00:03:54,000 --> 00:04:04,000
+ I leave it to you to explore it, you have the explanations about all the data that you need.
+
+33
+00:04:04,000 --> 00:04:09,000
+ It's completely similar to what we just did.
+
+34
+00:04:10,000 --> 00:04:16,000
+ You have the tips there to come to a complete solution.
+
+35
+00:04:17,000 --> 00:04:23,000
+ If it would not be working out for you, please let me know and I will explain again.
+
+36
+00:04:24,000 --> 00:04:33,000
+ One important point that is also made is that the marginal costs, well they are defined as a year by year estimate of the cost.
+
+37
+00:04:34,000 --> 00:04:36,000
+ The cost to own and operate an asset.
+
+38
+00:04:37,000 --> 00:04:39,000
+ And there are 3 components, the cost of ownership.
+
+39
+00:04:40,000 --> 00:04:43,000
+ And here the cost of ownership is the loss in market value.
+
+40
+00:04:44,000 --> 00:04:49,000
+ So we can expect that the market value of an asset, of our old asset is going down over time.
+
+41
+00:04:50,000 --> 00:04:55,000
+ So if you don't sell it in a given year, the next year, well it will not be worth so much.
+
+42
+00:04:56,000 --> 00:05:00,000
+ So you will have a loss in ownership because you owned it, you will have lost market value.
+
+43
+00:05:00,000 --> 00:05:09,000
+ Of course if you did not sell it, you did not earn interest on your selling amount of money.
+
+44
+00:05:10,000 --> 00:05:12,000
+ And of course we also have the annual operating cost.
+
+45
+00:05:13,000 --> 00:05:20,000
+ And then what we will see in the next example is that annual worth of the marginal cost is equal to the total annual worth of costs.
+
+46
+00:05:21,000 --> 00:05:30,000
+ So we have an example, again the same example in fact with a 3 year old machine.
+
+47
+00:05:31,000 --> 00:05:35,000
+ And you see the data which is here and here.
+
+48
+00:05:36,000 --> 00:05:42,000
+ It is a little bit messy maybe because the data is not all grouped together.
+
+49
+00:05:43,000 --> 00:05:49,000
+ What I try to do to make it a little bit more clear is I try to take it apart for you.
+
+50
+00:05:50,000 --> 00:05:53,000
+ Let's focus on year 2.
+
+51
+00:05:54,000 --> 00:05:57,000
+ So the data, again the data in blue.
+
+52
+00:05:58,000 --> 00:06:00,000
+ Now we are after the marginal cost for that year.
+
+53
+00:06:01,000 --> 00:06:04,000
+ We have a loss in market value because we did not sell it last year.
+
+54
+00:06:05,000 --> 00:06:12,000
+ We only have the 8000 now instead of the 9000 which is a loss of 1000.
+
+55
+00:06:13,000 --> 00:06:16,000
+ We did not sell it at 9000.
+
+56
+00:06:16,000 --> 00:06:21,000
+ That means that we did not get the interest of 10% which is 900.
+
+57
+00:06:22,000 --> 00:06:24,000
+ We have the estimation here for the annual operating cost.
+
+58
+00:06:25,000 --> 00:06:27,000
+ So the marginal cost for this year is 4600.
+
+59
+00:06:28,000 --> 00:06:37,000
+ If we then have to compute this amount, well we have our formula which we are quite familiar with by now.
+
+60
+00:06:38,000 --> 00:06:41,000
+ And we see that we have this amount.
+
+61
+00:06:41,000 --> 00:06:50,000
+ And this amount is exactly what we also obtained in this computation that we made just a while ago.
+
+62
+00:06:51,000 --> 00:06:55,000
+ So this is what it shows.
+

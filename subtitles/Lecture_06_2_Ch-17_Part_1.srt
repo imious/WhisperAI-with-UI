@@ -1,0 +1,360 @@
+1
+00:00:00,000 --> 00:00:04,000
+ After tax economic analysis
+
+2
+00:00:04,000 --> 00:00:06,000
+ subject of this chapter
+
+3
+00:00:06,000 --> 00:00:13,000
+ What we want to see is what is the impact of tax on our business
+
+4
+00:00:13,000 --> 00:00:18,000
+ So far we've done before tax analysis
+
+5
+00:00:18,000 --> 00:00:20,000
+ now we want to do an after tax analysis
+
+6
+00:00:20,000 --> 00:00:24,000
+ As you will see the only difference between the two is the tax
+
+7
+00:00:24,000 --> 00:00:28,000
+ it's not that we for a replacement, an after tax replacement for instance
+
+8
+00:00:28,000 --> 00:00:35,000
+ will have a totally new approach or method that is not anything like the one we had when we did not consider tax
+
+9
+00:00:35,000 --> 00:00:38,000
+ So only difference will be the tax
+
+10
+00:00:38,000 --> 00:00:42,000
+ Let's have a look at the terminology
+
+11
+00:00:42,000 --> 00:00:49,000
+ By the way, of course, taxes are real cash flows
+
+12
+00:00:49,000 --> 00:00:55,000
+ You will see that we use depreciation in computing our taxes
+
+13
+00:00:55,000 --> 00:01:00,000
+ but these depreciations are only used for computing our taxes, they are not cash flows
+
+14
+00:01:00,000 --> 00:01:05,000
+ So what is important is that we know our net operating income
+
+15
+00:01:05,000 --> 00:01:11,000
+ which are gross revenues minus our operating expenses
+
+16
+00:01:11,000 --> 00:01:19,000
+ Gross revenue, gross income represented by GIOE for our operating expenses
+
+17
+00:01:19,000 --> 00:01:22,000
+ we have been encountering that one before
+
+18
+00:01:23,000 --> 00:01:28,000
+ Taxable income is then the gross revenue minus our operating expenses
+
+19
+00:01:28,000 --> 00:01:34,000
+ This one, sorry, this is this
+
+20
+00:01:34,000 --> 00:01:40,000
+ but also we can deduct our depreciation
+
+21
+00:01:40,000 --> 00:01:43,000
+ so that means that the taxable income becomes lower
+
+22
+00:01:43,000 --> 00:01:46,000
+ What else do I need to say?
+
+23
+00:01:46,000 --> 00:01:49,000
+ I think that then what are the taxes?
+
+24
+00:01:49,000 --> 00:01:54,000
+ The taxes are then your tax rate times your taxable income
+
+25
+00:01:54,000 --> 00:02:01,000
+ and your net profit X after taxes obviously is then our taxable income minus our taxes
+
+26
+00:02:01,000 --> 00:02:11,000
+ Tax rates, I already hinted to it when we talked about depreciation and taxes in the previous chapter
+
+27
+00:02:11,000 --> 00:02:17,000
+ In some countries we have different tax levels
+
+28
+00:02:17,000 --> 00:02:21,000
+ We have a local tax level for instance for a state or a province
+
+29
+00:02:21,000 --> 00:02:27,000
+ and there are federal rates and we have to make one tax rate out of that
+
+30
+00:02:27,000 --> 00:02:29,000
+ and that's what we are going to do
+
+31
+00:02:29,000 --> 00:02:33,000
+ We are only going to look at effective tax rates here
+
+32
+00:02:33,000 --> 00:02:38,000
+ What you see to the right, the table is not recent
+
+33
+00:02:38,000 --> 00:02:43,000
+ That's what was mentioned in the book
+
+34
+00:02:43,000 --> 00:02:49,000
+ But what it's illustrating is that tax rates can be quite different from country to country
+
+35
+00:02:49,000 --> 00:02:54,000
+ and although this is out of scope of this course
+
+36
+00:02:54,000 --> 00:03:06,000
+ it's good to mention that taxes can be an important argument for companies to start a production plant
+
+37
+00:03:06,000 --> 00:03:10,000
+ in a given country for instance or to locate their headquarters in another country
+
+38
+00:03:10,000 --> 00:03:17,000
+ So it's an important aspect but we will not pursue that in this course
+
+39
+00:03:17,000 --> 00:03:22,000
+ Let's have our cash flow before taxes
+
+40
+00:03:22,000 --> 00:03:29,000
+ Cash flow before taxes is gross income or revenues minus operating expenses
+
+41
+00:03:29,000 --> 00:03:34,000
+ minus any investment plus any salvage value that there might be
+
+42
+00:03:34,000 --> 00:03:38,000
+ And after taxes we have this amount
+
+43
+00:03:38,000 --> 00:03:42,000
+ We have as we saw before
+
+44
+00:03:42,000 --> 00:03:45,000
+ We have of course this before
+
+45
+00:03:45,000 --> 00:03:49,000
+ But then we have our taxes that we have to deduct
+
+46
+00:03:49,000 --> 00:03:57,000
+ and the taxes that we have to deduct or determined by our gross income, operating expenses
+
+47
+00:03:57,000 --> 00:04:00,000
+ and also by our depreciation
+
+48
+00:04:01,000 --> 00:04:05,000
+ Now what about the effect of taxes
+
+49
+00:04:05,000 --> 00:04:11,000
+ What about the effect on taxes by the depreciation method and the recovery method
+
+50
+00:04:11,000 --> 00:04:19,000
+ Well as you see here all methods, all depreciation methods will lead to the same amount of total taxes
+
+51
+00:04:19,000 --> 00:04:23,000
+ and here also all lengths will have the same amount of total taxes
+
+52
+00:04:23,000 --> 00:04:30,000
+ But what is important of course is the present worth of the taxes
+
+53
+00:04:30,000 --> 00:04:33,000
+ Now let's have an example
+
+54
+00:04:33,000 --> 00:04:38,000
+ So this is an example about a Mexican manufacturing company
+
+55
+00:04:38,000 --> 00:04:42,000
+ It's a multinational and they are also active in Germany
+
+56
+00:04:42,000 --> 00:04:48,000
+ The company just purchased an asset for 90,000 with an estimated useful life of 9 years
+
+57
+00:04:49,000 --> 00:04:55,000
+ However the German tax law allows a shorter recovery period, namely of 5 years
+
+58
+00:04:55,000 --> 00:04:58,000
+ Their net income is 30,000 per year
+
+59
+00:04:58,000 --> 00:05:02,000
+ and now we are asked to demonstrate the tax advantage for the shorter period
+
+60
+00:05:02,000 --> 00:05:06,000
+ 5 years instead of 9 years
+
+61
+00:05:06,000 --> 00:05:10,000
+ with an effective tax rate of 35%
+
+62
+00:05:10,000 --> 00:05:15,000
+ and if invested money is returning a 5% per year after taxes
+
+63
+00:05:15,000 --> 00:05:23,000
+ We should not take into account any salvage value and a classic straight line depreciation is to be used
+
+64
+00:05:23,000 --> 00:05:25,000
+ Let's have a look
+
+65
+00:05:25,000 --> 00:05:29,000
+ So for 9 years straight line depreciation
+
+66
+00:05:29,000 --> 00:05:36,000
+ we know that the amount of depreciation every year will be 90,000 divided by the number of years is 10,000
+
+67
+00:05:36,000 --> 00:05:43,000
+ Taxable income is our income per year
+
+68
+00:05:43,000 --> 00:05:46,000
+ Minus our operating expenses is 20,000
+
+69
+00:05:46,000 --> 00:06:00,000
+ Taxable income is our income minus our depreciation
+
+70
+00:06:00,000 --> 00:06:06,000
+ Tax rate times that taxable income is 7,000
+
+71
+00:06:06,000 --> 00:06:10,000
+ and it's for every year that we have to consider that
+
+72
+00:06:10,000 --> 00:06:20,000
+ So that means that the present worth of taxes will be 49,755
+
+73
+00:06:20,000 --> 00:06:25,000
+ and the total of taxes that we have to pay, well every year we pay 7,000 so that's easy
+
+74
+00:06:25,000 --> 00:06:29,000
+ That's 63,000
+
+75
+00:06:29,000 --> 00:06:35,000
+ Now if we go to the other system with the shorter recovery period
+
+76
+00:06:35,000 --> 00:06:45,000
+ We of course have the same formulas but now we have our depreciation for the first 5 years is 18,000
+
+77
+00:06:45,000 --> 00:06:49,000
+ because we are allowed to have that accelerated depreciation
+
+78
+00:06:49,000 --> 00:06:54,000
+ and we will have no depreciation for years 6 to 9
+
+79
+00:06:54,000 --> 00:07:03,000
+ So our taxes will be the tax rate times our income minus our depreciation
+
+80
+00:07:03,000 --> 00:07:06,000
+ 4,200 for the first 5 years
+
+81
+00:07:06,000 --> 00:07:15,000
+ and well we will have to pay on the full 30,000 for years 6 to 9
+
+82
+00:07:15,000 --> 00:07:20,000
+ So the present worth of our taxes will be the 4,200
+
+83
+00:07:20,000 --> 00:07:24,000
+ We pay the first 5 years, we have the 10,500
+
+84
+00:07:24,000 --> 00:07:28,000
+ which we pay for the next years
+
+85
+00:07:28,000 --> 00:07:32,000
+ and we make it a present worth as well
+
+86
+00:07:32,000 --> 00:07:37,000
+ So here we have a present worth of 47,000
+
+87
+00:07:37,000 --> 00:07:44,000
+ There we have a present worth of 49,755
+
+88
+00:07:44,000 --> 00:07:49,000
+ The total taxes here was 63
+
+89
+00:07:49,000 --> 00:07:58,000
+ Here the total taxes are 5 times the 10,500
+
+90
+00:07:58,000 --> 00:08:04,000
+ and is again the 36,000 as was mentioned in the previous part
+

@@ -1,0 +1,1112 @@
+1
+00:00:00,000 --> 00:00:09,000
+ In this lecture we're going to talk about another criterion to evaluate investment proposals, namely the ROAR or the rate of return.
+
+2
+00:00:12,000 --> 00:00:18,000
+ We start with the basic case, the ROAR analysis for single alternatives.
+
+3
+00:00:19,000 --> 00:00:25,000
+ Then we move on to something more complex, the fact that maybe there is not a single ROAR but there are multiple ROARs,
+
+4
+00:00:25,000 --> 00:00:30,000
+ so we will have to find the right one and remove the ones that we don't want.
+
+5
+00:00:31,000 --> 00:00:36,000
+ Then we move on to the ROAR analysis for multiple alternatives.
+
+6
+00:00:37,000 --> 00:00:45,000
+ We will see that here it's slightly more complicated than in the case of a present word or annual word analysis.
+
+7
+00:00:45,000 --> 00:00:56,000
+ This as an intermidsale, there are a lot of notations in this chapter so I summarized them here for your convenience.
+
+8
+00:00:57,000 --> 00:01:00,000
+ Let's start with the single alternative.
+
+9
+00:01:01,000 --> 00:01:06,000
+ First we have to talk about what exactly is the rate of return.
+
+10
+00:01:06,000 --> 00:01:17,000
+ The rate of return is also sometimes called the internal rate of return or the marginal efficiency of capital
+
+11
+00:01:18,000 --> 00:01:23,000
+ and it's a quite popular method to measure the investment's worth.
+
+12
+00:01:24,000 --> 00:01:32,000
+ We can define it either as the interest paid on the unpaid balance of a loan or the interest earned on the unrecovered investment balance of an investment,
+
+13
+00:01:32,000 --> 00:01:38,000
+ such that the final payment or receipt brings the terminal value exactly to zero.
+
+14
+00:01:39,000 --> 00:01:44,000
+ Maybe it sounds a little bit complicated but you will see in a few minutes that it's really not that complicated.
+
+15
+00:01:45,000 --> 00:01:51,000
+ In order to find the ROAR we need a present word or an annual word equation.
+
+16
+00:01:52,000 --> 00:01:55,000
+ Usually we call it I star.
+
+17
+00:01:55,000 --> 00:02:02,000
+ So if you take back the definition it's the interest rate earned or charged on the unrecovered balance of a loan or investment.
+
+18
+00:02:03,000 --> 00:02:11,000
+ As we will see in the next example it's not the interest rate earned on the original loan amount or investment amount.
+
+19
+00:02:11,000 --> 00:02:27,000
+ In order to be attractive, interesting, an investment needed a present word or annual word larger than zero,
+
+20
+00:02:28,000 --> 00:02:33,000
+ here the ROAR, the I star is compared with the MAR.
+
+21
+00:02:34,000 --> 00:02:37,000
+ If it's larger than the MAR we are happy, the investment is justified.
+
+22
+00:02:37,000 --> 00:02:40,000
+ If it's lower than the MAR the investment is not justified.
+
+23
+00:02:41,000 --> 00:02:47,000
+ If it's equal to the MAR it's justified but just, only just.
+
+24
+00:02:48,000 --> 00:02:57,000
+ Mathematically the ROAR can be in the range between minus 100 and plus infinity.
+
+25
+00:02:58,000 --> 00:03:03,000
+ Minus 100 means that a total and complete loss of capital.
+
+26
+00:03:03,000 --> 00:03:09,000
+ So it can be negative but of course not more than 100 percent.
+
+27
+00:03:10,000 --> 00:03:16,000
+ And all values above zero indicate a positive return on investment.
+
+28
+00:03:17,000 --> 00:03:21,000
+ Not necessarily larger than the MAR but still it's positive.
+
+29
+00:03:22,000 --> 00:03:28,000
+ A small example to illustrate this unrecovered balance statement just made.
+
+30
+00:03:28,000 --> 00:03:32,000
+ The example is about the Wells Fargo bank.
+
+31
+00:03:33,000 --> 00:03:39,000
+ The bank lent 1000 dollars to an engineer for a period of 4 years at a percentage of 10 percent per year.
+
+32
+00:03:40,000 --> 00:03:46,000
+ And they expect, as shown by the formula, a net cash flow of 315 dollars for each of the 4 years.
+
+33
+00:03:47,000 --> 00:03:50,000
+ Now let's have a look at that.
+
+34
+00:03:51,000 --> 00:03:55,000
+ We see two tables, 71 and 72.
+
+35
+00:03:55,000 --> 00:04:04,000
+ What is the difference? Well the difference is that in 71 the 10 percent is computed on the unrecovered balance.
+
+36
+00:04:05,000 --> 00:04:10,000
+ While in 72 the 10 percent is computed on the initial amount.
+
+37
+00:04:10,000 --> 00:04:20,000
+ If you focus on 4 we see that indeed 315 dollars per year is paid.
+
+38
+00:04:21,000 --> 00:04:32,000
+ Of the 315 we have 100 in year 1 which is of course the interest on the 1000.
+
+39
+00:04:33,000 --> 00:04:44,000
+ So 315 minus 100 means that the bank has recovered 215 dollars on the loan they gave.
+
+40
+00:04:45,000 --> 00:04:56,000
+ And the unrecovered balance is then 1000, the initial amount of the loan minus of course the 215 that has been paid back.
+
+41
+00:04:56,000 --> 00:05:03,000
+ The next year again 315 dollars is paid by the engineer.
+
+42
+00:05:04,000 --> 00:05:08,000
+ The 315 is composed of interest on the unrecovered balance.
+
+43
+00:05:09,000 --> 00:05:18,000
+ So the 10 percent, 78, is the 10 percent of the unrecovered balance of 784 which we just computed.
+
+44
+00:05:18,000 --> 00:05:27,000
+ That means that the recovered amount is 315 minus 78 and the recovered amount is 237.
+
+45
+00:05:28,000 --> 00:05:41,000
+ And so on after 4 years we end up with a total of interest of 261 and we have completely repaid our loan.
+
+46
+00:05:42,000 --> 00:05:52,000
+ If however we compute the interest on the initial amount we are always having an interest of 100.
+
+47
+00:05:53,000 --> 00:05:59,000
+ So the recovered amount is always 315 minus that 100 which means that we have a recovered amount of 215.
+
+48
+00:05:59,000 --> 00:06:12,000
+ And after 4 years we do not end up with the full 1000 dollars that have been in the loan but only with 861.
+
+49
+00:06:13,000 --> 00:06:15,000
+ So that's not the right way to do things.
+
+50
+00:06:16,000 --> 00:06:25,000
+ Here this figure also shows that, well, illustrates the computations.
+
+51
+00:06:26,000 --> 00:06:29,000
+ Now how do we compute the ROAR?
+
+52
+00:06:30,000 --> 00:06:35,000
+ Well we already mentioned that we need a present worth or annual worth equation.
+
+53
+00:06:36,000 --> 00:06:47,000
+ Indeed if we focus on the present worth, so we take all costs disembarkments, we take all the incomes and receipts as you see.
+
+54
+00:06:47,000 --> 00:06:54,000
+ And then we say that they are equal and then we compute or we solve for I star.
+
+55
+00:06:55,000 --> 00:07:06,000
+ Basically that's the same as saying write down the present worth equation, put it to zero and then solve it for I star.
+
+56
+00:07:07,000 --> 00:07:09,000
+ Similar thing can be done with annual worth.
+
+57
+00:07:10,000 --> 00:07:18,000
+ Again there is no closed formula for the ROAR so that means that we will have to use trial and error or we can use Excel.
+
+58
+00:07:19,000 --> 00:07:23,000
+ There is a built in formula to compute the rate of return.
+
+59
+00:07:24,000 --> 00:07:32,000
+ In Excel it's called the internal rate of return and abbreviation used is IRR.
+
+60
+00:07:33,000 --> 00:07:34,000
+ So what is the procedure?
+
+61
+00:07:35,000 --> 00:07:37,000
+ So we draw a cash flow diagram, that's always handy to have.
+
+62
+00:07:37,000 --> 00:07:44,000
+ We set up the appropriate present worth equivalence equation, set it to zero and then solve it.
+
+63
+00:07:45,000 --> 00:07:56,000
+ We select values of I, so we start with guesses and we repeat that until indeed we have a zero, so the equation is balanced.
+
+64
+00:07:57,000 --> 00:08:02,000
+ Maybe we can interpolate if we don't want to try out too many guesses.
+
+65
+00:08:02,000 --> 00:08:11,000
+ So an example, we have a heavy HVAC engineer requesting money for an environmental control system for a new building.
+
+66
+00:08:12,000 --> 00:08:16,000
+ And the engineer requests to spend $500,000 now.
+
+67
+00:08:17,000 --> 00:08:33,000
+ Expected is that it will save $10,000 per 10 years in energy and at the end $700,000 in refurbishment cost, so at the end of the 10 years horizon.
+
+68
+00:08:34,000 --> 00:08:38,000
+ And we are asked to find the corresponding ROAR.
+
+69
+00:08:39,000 --> 00:08:41,000
+ Cash flow diagram looks pretty simple.
+
+70
+00:08:41,000 --> 00:08:50,000
+ We have the initial amount of $500,000, the end amount of $700,000 and then in between we have that cost savings.
+
+71
+00:08:51,000 --> 00:09:07,000
+ So what we do is we set up the equation which is minus $500,000, is already a present worth, plus $10,000 times PA I star 10 plus $700,000 PF I star 10.
+
+72
+00:09:07,000 --> 00:09:14,000
+ So I star is the notation we use for the ROAR and then we try to find the appropriate I.
+
+73
+00:09:15,000 --> 00:09:19,000
+ Now how do we do that? We can do that in different ways.
+
+74
+00:09:20,000 --> 00:09:29,000
+ As you see in the bottom right we can try different values until we hit zero.
+
+75
+00:09:29,000 --> 00:09:39,000
+ So as you see it will be somewhere between 5 and 6 because if you use 5 we still have a present worth value which is positive.
+
+76
+00:09:40,000 --> 00:09:46,000
+ If we use 6 we will have a present worth value which is negative, so zeros should be somewhere in between.
+
+77
+00:09:47,000 --> 00:09:59,000
+ Now what can we try to do? We can try to look in the tables and try to find it.
+
+78
+00:10:00,000 --> 00:10:05,000
+ That's another way of doing it. Of course you could say well it's difficult, it can be so many different values.
+
+79
+00:10:06,000 --> 00:10:11,000
+ So we could use some starting estimation procedures.
+
+80
+00:10:11,000 --> 00:10:14,000
+ One of them is outlined there in the textbook.
+
+81
+00:10:15,000 --> 00:10:22,000
+ That's one way of doing it but in fact you can use whatever estimation procedure you want.
+
+82
+00:10:23,000 --> 00:10:30,000
+ An easy thing is to take a low value for instance and a high value for I star and then see what happens.
+
+83
+00:10:30,000 --> 00:10:40,000
+ So easy as a concept but can be a little bit tricky to find the appropriate I star.
+
+84
+00:10:41,000 --> 00:10:48,000
+ It can be a little bit of work if you don't have a spreadsheet at your disposal or you have no tables at your disposal.
+
+85
+00:10:49,000 --> 00:11:08,000
+ Now what about the raw versus the present worth, the annual worth, the future worth which we saw in previous instances?
+
+86
+00:11:09,000 --> 00:11:13,000
+ Well normally the results should be consistent so nothing to worry there.
+
+87
+00:11:13,000 --> 00:11:18,000
+ However we can have some difficulties because there are multiple rows.
+
+88
+00:11:19,000 --> 00:11:26,000
+ So the equation that we set up for present worth for instance in order to find I star can sometimes have more than one root.
+
+89
+00:11:27,000 --> 00:11:32,000
+ And then we have difficulties because then we will have to remove the ones that are not desired.
+
+90
+00:11:33,000 --> 00:11:38,000
+ The question is when do we have those multiple I star values?
+
+91
+00:11:38,000 --> 00:11:45,000
+ Well we can have multiple I star values when we are dealing with non-conventional cash flow series.
+
+92
+00:11:46,000 --> 00:11:52,000
+ Non-conventional cash flow series or cash flow series with more than one sign change.
+
+93
+00:11:53,000 --> 00:12:03,000
+ So if you have a look at the table what we call conventional is no change in sign or just one.
+
+94
+00:12:03,000 --> 00:12:14,000
+ So for instance we start negative first line and then it becomes positive or we have a few years with negative cash flows and then cash flow gets better and is positive.
+
+95
+00:12:15,000 --> 00:12:25,000
+ Or it can also be a conventional cash flow series with a project that starts very well with cash flow but then has some difficulties and then we have negative cash flows.
+
+96
+00:12:25,000 --> 00:12:34,000
+ That's conventional. Non-conventional is if you have more than one sign change like we start negative then it goes well and then it goes bad again.
+
+97
+00:12:35,000 --> 00:12:42,000
+ Or it starts well, it goes bad, it starts well. So if we have these switches in signs more than once.
+
+98
+00:12:43,000 --> 00:12:50,000
+ Now can we predict based on these cash flow signs whether we will have multiple values?
+
+99
+00:12:50,000 --> 00:13:04,000
+ Well there are two rules that can help us. There is the rule of Descartes that is saying that the total number of real values I star is always less than or equal to the number of sign changes in the original cash flow series.
+
+100
+00:13:05,000 --> 00:13:12,000
+ So that's for the original cash flow series and there is Nordstrom's criterion which is looking at cumulative cash flow.
+
+101
+00:13:12,000 --> 00:13:23,000
+ It's a sufficient but not necessary condition and it says well if you form a series of cumulative cash flows, is zero, is one, is two etc.
+
+102
+00:13:24,000 --> 00:13:38,000
+ And if zero is less than zero and the sign changes only once in the cumulative cash flow series then we are sure that there is a single real number for our I star.
+
+103
+00:13:42,000 --> 00:13:51,000
+ The example that we have here is about Honda, more specifically about the contract based work that they do for automobile manufacturers worldwide.
+
+104
+00:13:52,000 --> 00:13:58,000
+ The tables shows the net cash flows for these contract payments over the last three years and as you see they are very valuable.
+
+105
+00:13:59,000 --> 00:14:04,000
+ Now we are asked to determine the maximum number of roars and to make a plot.
+
+106
+00:14:04,000 --> 00:14:14,000
+ So we have the cash flows again in the table. If you look at the sign changes we have two sign changes.
+
+107
+00:14:15,000 --> 00:14:20,000
+ So the number of real values is always less than or equal to the number of sign changes.
+
+108
+00:14:21,000 --> 00:14:26,000
+ So that means that we can have a total of three sign changes.
+
+109
+00:14:26,000 --> 00:14:31,000
+ So the number of real values is always less than or equal to the number of sign changes.
+
+110
+00:14:32,000 --> 00:14:41,000
+ So that means that we can have one or two I stars according to this rule of the cart.
+
+111
+00:14:42,000 --> 00:14:45,000
+ Nordstrom, well Nordstrom asks us to make a cumulative cash flow.
+
+112
+00:14:45,000 --> 00:14:54,000
+ So we have 2000 and 1500 minus 6600 plus 200.
+
+113
+00:14:55,000 --> 00:15:01,000
+ We cannot use this Nordstrom rule because our first cumulative cash flow is positive and then Nordstrom cannot say anything.
+
+114
+00:15:02,000 --> 00:15:10,000
+ Okay, let's have a look at it. If we write down the present word equation that we need.
+
+115
+00:15:11,000 --> 00:15:25,000
+ So we have 2000 minus 500 times Pfi1 minus 8000 times Pfi2 plus 6800 times Pfi3.
+
+116
+00:15:26,000 --> 00:15:33,000
+ So this is the equation and if we solve the equation we see that there are two roots.
+
+117
+00:15:34,000 --> 00:15:43,000
+ So there are two I stars. And also here we can do the same of course by Excel and we will see the same thing.
+
+118
+00:15:43,000 --> 00:15:53,000
+ Okay, now that's not what we want. We just want the appropriate rate of return value.
+
+119
+00:15:54,000 --> 00:15:57,000
+ So we will have to remove the multiple I star values.
+
+120
+00:16:02,000 --> 00:16:06,000
+ Our ROAR that we have been considering up till now is in fact the internal rate of return.
+
+121
+00:16:07,000 --> 00:16:13,000
+ If you have more than one I star we will remove the one that we don't want.
+
+122
+00:16:14,000 --> 00:16:19,000
+ And the resulting one, the one that we end up with is called the external rate of return.
+
+123
+00:16:20,000 --> 00:16:24,000
+ Mined external means external to the project that we are looking at.
+
+124
+00:16:27,000 --> 00:16:29,000
+ So what about that external?
+
+125
+00:16:29,000 --> 00:16:36,000
+ So suppose that you are the project manager and you have a project that generates cash flows every year.
+
+126
+00:16:37,000 --> 00:16:40,000
+ And that's the project that we want to evaluate using the ROAR.
+
+127
+00:16:41,000 --> 00:16:53,000
+ Now sometimes we will have a positive net cash flow and we are able to invest the excess money at a good rate of return in some source external to the project.
+
+128
+00:16:54,000 --> 00:16:58,000
+ And we will then talk about the investment rate or reinvestment rate II.
+
+129
+00:16:59,000 --> 00:17:10,000
+ In other years the net cash flows will be negative and we must borrow funds from other projects or other sources that are external to our project.
+
+130
+00:17:11,000 --> 00:17:19,000
+ And the interest rate that we pay then should be as small as possible and we call that the borrowing rate or the finance rate IB.
+
+131
+00:17:19,000 --> 00:17:31,000
+ There are two approaches that we use to determine the appropriate external rate of return.
+
+132
+00:17:32,000 --> 00:17:37,000
+ There is the modified rate of return, abbreviation used is MIR.
+
+133
+00:17:38,000 --> 00:17:43,000
+ And there you see in the procedure you see that we use the IB and we use the II.
+
+134
+00:17:43,000 --> 00:17:50,000
+ But there is another procedure which is called the return on invested capital approach, the ROIC if you want.
+
+135
+00:17:51,000 --> 00:17:55,000
+ And there we use another procedure.
+
+136
+00:17:58,000 --> 00:18:07,000
+ The results are not necessarily the same because what we do, for instance in the modified ROAR we use additional information.
+
+137
+00:18:07,000 --> 00:18:13,000
+ And well we can't expect them to have the same results as in another procedure.
+
+138
+00:18:14,000 --> 00:18:21,000
+ So be careful, do not expect the same result if you are using the two procedures.
+
+139
+00:18:23,000 --> 00:18:30,000
+ Let's have a closer look at the two procedures and let's start with the MIR or the modified ROAR approach.
+
+140
+00:18:31,000 --> 00:18:33,000
+ As you saw in the previous slides there are four steps.
+
+141
+00:18:33,000 --> 00:18:42,000
+ Now in the first step we determine the present worth in year 0 of all negative cash flows and we are using the borrowing rate IB.
+
+142
+00:18:43,000 --> 00:18:49,000
+ Think of IB as being the weighted cost of capital for instance.
+
+143
+00:18:50,000 --> 00:18:55,000
+ Then we determine the future worth of all positive cash flows at II.
+
+144
+00:18:56,000 --> 00:19:01,000
+ II being the reinvestment rate, think of MAR for instance.
+
+145
+00:19:01,000 --> 00:19:16,000
+ And then we determine the external rate of return by putting the future worth equal to the present worth.
+
+146
+00:19:17,000 --> 00:19:23,000
+ If the resulting rate of return is larger than the MAR the project is economically justified.
+
+147
+00:19:24,000 --> 00:19:29,000
+ And I think the picture to the right nicely illustrates this concept.
+
+148
+00:19:32,000 --> 00:19:34,000
+ So let's start with a small example.
+
+149
+00:19:35,000 --> 00:19:47,000
+ So we have the four cash flows that as you see we have 2000 minus 500 minus 8000 plus 6800.
+
+150
+00:19:48,000 --> 00:19:53,000
+ We have a MAR of 9%, we have an IB of 8.5% and an II of 12%.
+
+151
+00:19:54,000 --> 00:20:05,000
+ So note that here we need additional information with just having the MAR as we had for all our computations with the present worth, future worth and annual worth.
+
+152
+00:20:06,000 --> 00:20:09,000
+ That's not just enough here, we need additional information.
+
+153
+00:20:09,000 --> 00:20:14,000
+ Okay so we set up our equation for the present worth.
+
+154
+00:20:15,000 --> 00:20:29,000
+ So we have minus 500 times PF 8.5% 1, minus 8100 times PF 8.5% 2, we end up with minus 7342.
+
+155
+00:20:30,000 --> 00:20:44,000
+ Then we set up our future worth equation in year 3, so that's 2000 times FP 12% 3 and we have our 6800 and we have 9610.
+
+156
+00:20:44,000 --> 00:21:10,000
+ So then we combine these, so we have our present worth equation times FP i, our external rate of return we are looking for, 3 plus FW3 is 0 and then we solve it and we end up with a rate of return being 0.939.
+
+157
+00:21:10,000 --> 00:21:14,000
+ So it's larger than our MAR so the project is justified.
+
+158
+00:21:15,000 --> 00:21:17,000
+ So it's a fairly simple procedure.
+
+159
+00:21:18,000 --> 00:21:27,000
+ Again note that you need extra information in order to be able to carry out this method.
+
+160
+00:21:30,000 --> 00:21:36,000
+ Let's have a look at the second method now, the ROIC or the Return on Invested Capital approach.
+
+161
+00:21:36,000 --> 00:21:40,000
+ So what we are using is a Net Invest procedure.
+
+162
+00:21:41,000 --> 00:21:53,000
+ Again you see in the procedure that we will use II, so we will use the reinvestment rate, again new information that we need, extra information that we need.
+
+163
+00:21:54,000 --> 00:22:00,000
+ How does it work? Well we work with setting up a series of future worth relations for each of the years.
+
+164
+00:22:01,000 --> 00:22:13,000
+ You see we have Ft is obviously Ft minus 1 times 1 plus k plus the net cash flow in t.
+
+165
+00:22:14,000 --> 00:22:27,000
+ Now what do we use for k? Well we use either II if Ft minus 1 is larger than 0 or we use our rate of return that we are after if Ft minus 1 is greater than 0.
+
+166
+00:22:30,000 --> 00:22:41,000
+ Ft minus 1 is less than 0 so in the first case it means that we have extra funds available, in the second case it means that the project has been using all the available funds.
+
+167
+00:22:42,000 --> 00:22:52,000
+ So we do that for all years and then the last year that equation we put to 0 and we solve for our rate of return.
+
+168
+00:22:53,000 --> 00:22:58,000
+ If that resulting rate of return is larger than our MAR the project is justified otherwise it's not.
+
+169
+00:22:59,000 --> 00:23:15,000
+ Okay let's take again our example. So in the first year F0 of course is 2000 it's larger than 0 so the next year we will use the reinvestment rate at 12%.
+
+170
+00:23:16,000 --> 00:23:29,000
+ So in year 1 F1 is 2000 times 1.12 minus 500 is 1740 larger than 0 so the next year we will again use that reinvestment rate of 12%.
+
+171
+00:23:30,000 --> 00:23:54,000
+ So we have then F2 is 1740 times 1.12 minus 8100 and now we see that it's 6151 minus for the second year so that means that for the next year for year 3 we will have to use our rate of return that we are looking for.
+
+172
+00:23:55,000 --> 00:24:14,000
+ We put it in the equation minus 6151 times 1 plus 6100 and then we end up with 10.55% which is larger than the MAR so we are happy the project is justified.
+
+173
+00:24:15,000 --> 00:24:27,000
+ Okay next example I've added this example to show you that it's not necessarily the case that our external rate of return appears only in the last year in our equations.
+
+174
+00:24:28,000 --> 00:24:51,000
+ Okay so we have this cash flow series plus 48000 plus 20000 minus sorry 90000 plus 50000 minus 10000 so we have sign changes we have 3 sign changes in our cash flow series which means according to the gap that we can have up to 3 rate of return values.
+
+175
+00:24:51,000 --> 00:25:03,000
+ Nordstrom is not telling us anything because it's inconclusive our first cash flow in our cumulative cash flow series is positive so Nordstrom is not telling us anything.
+
+176
+00:25:03,000 --> 00:25:14,000
+ So we will apply the ROIC approach with an II of 15% so again we need extra information we need this reinvestment rate.
+
+177
+00:25:14,000 --> 00:25:20,000
+ Now let's start setting up the future world equations as we did the previous example.
+
+178
+00:25:20,000 --> 00:25:42,000
+ If 0 is positive so we will use II for F1, F1 is also positive so for F2 we will also use II but then F2 is negative we have minus 3520 so we will use our external rate of return in the next equation for year 3.
+
+179
+00:25:42,000 --> 00:26:11,000
+ Now of course well F3 is 46480 minus 3520 times that external rate of return so you could say it's difficult I don't know if it's positive or negative but we see that it's positive for all i's that are less than 0.
+
+180
+00:26:12,000 --> 00:26:35,000
+ 1320% so I think it's pretty safe to assume that that's the case so for the next equation we will use the II of 15% and we see our final equation F4 which we put to 0 and we can derive our external rate of return.
+
+181
+00:26:35,000 --> 00:26:45,000
+ So it's possible that that external rate of return appears in your computations faster than just at the end.
+
+182
+00:26:45,000 --> 00:27:05,000
+ So far we've been discussing the case where we only had one alternative and we tried to determine the rate of return in order to decide to accept or not accept the project the alternative and that acceptance depended on whether the roar was larger or smaller than the roar.
+
+183
+00:27:05,000 --> 00:27:26,000
+ Now we are considering the case of multiple alternatives. There was no big deal about having multiple alternatives when we looked at the present word, future word or annual word but you will see that here for the roar we need some extra thinking in order to be able to compare multiple alternatives.
+
+184
+00:27:26,000 --> 00:27:35,000
+ Let's start with the simple case of multiple alternatives being having two alternatives.
+
+185
+00:27:35,000 --> 00:27:45,000
+ This first slide already introduces us to what we need to do namely an incremental analysis.
+
+186
+00:27:45,000 --> 00:27:58,000
+ Let's have a look. So assume we have a MAR of 16% and we have an available budget of 90,000. We have an initial choice between alternative A and B.
+
+187
+00:27:58,000 --> 00:28:08,000
+ An alternative A represents an investment of 50,000 and it has an internal rate of return of 35%.
+
+188
+00:28:08,000 --> 00:28:20,000
+ Alternative B an investment of 85,000 and a rate of return of 29%. So at first sight we go for the largest rate of return and we select A.
+
+189
+00:28:20,000 --> 00:28:34,000
+ Now the thing is of course we have 90,000 as a budget and A is only using 50,000. B is using up 85,000 so almost the whole budget.
+
+190
+00:28:34,000 --> 00:28:44,000
+ That means that A gives us an opportunity to do something with the extra funds. We could invest it in some other project.
+
+191
+00:28:44,000 --> 00:29:04,000
+ The general assumption is that excess funds are invested at the MAR. So then if we look at the overall roar with the 40,000 left invested at the MAR and for project B the 5,000 are invested at the MAR.
+
+192
+00:29:04,000 --> 00:29:10,000
+ We see that we end up with a bit of a different picture. B seems to be the most interesting one.
+
+193
+00:29:10,000 --> 00:29:31,000
+ So the lesson learned here is well we need to have an incremental cash flow. If the initial investment amounts are not the same we need an incremental analysis in order to determine which is the most interesting alternative.
+
+194
+00:29:31,000 --> 00:29:37,000
+ We cannot just decide on the internal rate of return of the projects.
+
+195
+00:29:37,000 --> 00:29:59,000
+ So the guidelines for mutual exclusive projects are calculate the internal rate of return for each alternative. The ones that have an internal rate of return which is less than the MAR we eliminate them.
+
+196
+00:29:59,000 --> 00:30:09,000
+ We will compare the remaining alternatives incrementally.
+
+197
+00:30:09,000 --> 00:30:22,000
+ If the roar available to the incremental cash flow equals or exceeds the MAR the alternative with the extra investment should be selected as you saw in the example with our alternatives A and B.
+
+198
+00:30:22,000 --> 00:30:39,000
+ So that's for the mutual exclusive projects. Of course if we have independent projects we don't need to compare them. The roar is used to accept all projects with a rate of return which is larger than the MAR.
+
+199
+00:30:39,000 --> 00:30:55,000
+ Now how exactly do we perform an incremental analysis? Well here you see the procedure outlined. So we first start with ordering the alternatives by increasing initial investment amounts.
+
+200
+00:30:55,000 --> 00:31:01,000
+ Of course increasing because we want to see whether it pays off to invest more.
+
+201
+00:31:01,000 --> 00:31:09,000
+ We develop the incremental cash flow series using the least common multiple of years. Yes we need that here.
+
+202
+00:31:09,000 --> 00:31:24,000
+ We draw the incremental cash flow diagram if needed. I always recommend to do that because it makes things clear but sometimes cash flow series are so simple that it doesn't pay off to invest time in it.
+
+203
+00:31:24,000 --> 00:31:38,000
+ We count the sign changes to see if multiple delta I stars value exists. So delta I star is the notation we use for the incremental rate of return.
+
+204
+00:31:38,000 --> 00:31:56,000
+ Then we set up a relationship, present word, annual word or future word and we find the delta I star. If it's less than the MAR we select A otherwise we select B.
+
+205
+00:31:56,000 --> 00:32:10,000
+ Let's see if maybe an example makes this thing a bit more clearer. So we have an example. We have Verizon, a merger of Bell Atlantic and GTE.
+
+206
+00:32:10,000 --> 00:32:18,000
+ So when solving some equipment incompatibilities they discovered that for one item there were two vendors, vendor A and B.
+
+207
+00:32:18,000 --> 00:32:30,000
+ Three thousand units of the item sold by vendor A and B were needed and the estimates for both vendors are given in the table and visualized in the cash flow diagram.
+
+208
+00:32:30,000 --> 00:32:42,000
+ So based on the raw analysis which vendors should be selected. So basically what we are asking is is the more expensive B justified after all?
+
+209
+00:32:42,000 --> 00:32:53,000
+ Well if we see the annual cost is lower, the salvage value is higher so intuitively we would be tempted to go for alternative B.
+
+210
+00:32:53,000 --> 00:33:01,000
+ In the table we see the cash flows for A, for B, we see the incremental cash flow and we also have a cash flow diagram.
+
+211
+00:33:01,000 --> 00:33:12,000
+ In the incremental cash flow series we see that there are three sign changes so we might have three roots.
+
+212
+00:33:12,000 --> 00:33:29,000
+ The incremental cash flow series starts with a negative S0 so here also it indicates that we might have more than one positive root.
+
+213
+00:33:29,000 --> 00:33:47,000
+ So here I wrote out in full the table. So for alternative A we have a lifespan of 10. There is no salvage value so that's a pretty easy cash flow series.
+
+214
+00:33:47,000 --> 00:34:03,000
+ B has a lifespan of five years. We start with initial amount of 13.000 then we have a yearly amount of 1600 and there is a salvage value of 2000 after five years.
+
+215
+00:34:03,000 --> 00:34:23,000
+ But that year we also have to invest in a second B and we have this green series then. So incrementally B minus A you see the incremental series and we see with indicated with the black arrows we see sign changes.
+
+216
+00:34:23,000 --> 00:34:31,000
+ The cumulative incremental we also see and again there are three sign changes.
+
+217
+00:34:31,000 --> 00:34:40,000
+ So what is the raw equation based on the present word for incremental cash flow? So we focus then on the incremental B minus A column.
+
+218
+00:34:40,000 --> 00:35:06,000
+ So we have minus 5000 plus 1900 PA delta I 10. We have minus 11000 times PF delta I 5 which of course is the 13000 which we have to invest for a new B adjusted with the 2000 salvage value.
+
+219
+00:35:06,000 --> 00:35:20,000
+ And we have 2000 PF delta I 10 with the salvage value of the second B.
+
+220
+00:35:20,000 --> 00:35:33,000
+ So assuming that the reinvestment rate is equal to the resulting delta I star. Solution of this equation for the first root discovered results in a delta I star between 12 and 15.
+
+221
+00:35:33,000 --> 00:35:46,000
+ If we interpolate we find 12.65. Now this is less than the MAR of 15% so that means that the lower cost alternative will be selected.
+
+222
+00:35:46,000 --> 00:35:53,000
+ That's how it works so it doesn't pay off to go for the more expensive B.
+
+223
+00:35:54,000 --> 00:36:07,000
+ Let's quickly go back to the concept of breakeven we encountered earlier which we will discuss in more detail in chapter 13 and try to apply it here for this rate of return analysis.
+
+224
+00:36:07,000 --> 00:36:17,000
+ So what is a breakeven interest rate I star PA? Well it's interest rate at which the two alternatives are economically equivalent.
+
+225
+00:36:17,000 --> 00:36:27,000
+ We have two graphs here. The first graph is the present worth versus interest rate. The second one is present worth versus interest rate.
+
+226
+00:36:27,000 --> 00:36:36,000
+ The difference is that in first is the present worth of the incremental cash flows while in the second one it's the present worth of the cash flows.
+
+227
+00:36:36,000 --> 00:36:50,000
+ Now if you have a look at the first graph we see that our breakeven delta I is encountered at 12.65%.
+
+228
+00:36:50,000 --> 00:37:06,000
+ For MARS less than that the extra investment in B is justified. For MARS that are larger than 12.5% the opposite is true.
+
+229
+00:37:06,000 --> 00:37:18,000
+ The extra investment in B should not be made. Vendor A should be selected. And at 12.65% the alternatives are equally attractive.
+
+230
+00:37:18,000 --> 00:37:46,000
+ We could make a similar reasoning with the other graph. If you look at MARS less than 12.65% we should select alternative B because the cost cash flow there is smaller so it's more attractive.
+
+231
+00:37:46,000 --> 00:37:58,000
+ If you go for MARS larger than 12.65% we should go for A because there A seems to be the most interesting one.
+
+232
+00:37:58,000 --> 00:38:07,000
+ And at 12.65% the choices are indifferent both are equally interesting.
+
+233
+00:38:07,000 --> 00:38:13,000
+ The breakeven concept is appearing here. We will see it again in chapter 13.
+
+234
+00:38:13,000 --> 00:38:28,000
+ A quick example. The Bank of America will get a rather long introduction but what it boils down to is that for a new online banking and loan service system there are two options.
+
+235
+00:38:28,000 --> 00:38:43,000
+ System A and system B. We have the data for both systems summarized in the table and we are asked to make an incremental raw analysis and to draw the present world versus iGraphs for each alternatives and for the increment.
+
+236
+00:38:43,000 --> 00:39:00,000
+ And the final question of course is which alternative should be selected or provided of course that these alternatives are interesting. If both are not meeting the requirements we will select none.
+
+237
+00:39:00,000 --> 00:39:12,000
+ So then you see the computations in the bottom left corner. We see the graph and here again we see that the breakeven.
+
+238
+00:39:12,000 --> 00:39:24,000
+ Well we see the similar picture as we just discussed. We have the breakeven i and we have the i-curves for both alternatives.
+
+239
+00:39:24,000 --> 00:39:43,000
+ We see that at the breakeven i we have our switching point. Before that point we will choose a different alternative than beyond that point.
+
+240
+00:39:43,000 --> 00:39:56,000
+ And here you have a blown up version of the graph which makes things even more clear.
+
+241
+00:39:56,000 --> 00:40:13,000
+ So far we have been using the present world as the equation to determine our raw. Question is can we use an annual world? And the answer is yes. There are even two methods to use the annual world for finding the raw.
+
+242
+00:40:13,000 --> 00:40:35,000
+ We have to be careful however if we use the annual world relation on an incremental cash flow series we have to go for the least common multiple of lives of the alternatives or we could solve the equation of the respective annual world relationships and then we only need one cycle.
+
+243
+00:40:35,000 --> 00:40:58,000
+ Example to clarify. So again our Verizon example that we met earlier on. So there are two alternatives A and B. We see the cash flows of both and one has a lifetime of 10, the other has a lifetime of 5. So we have to go for the least common multiple which we find in the last column.
+
+244
+00:40:58,000 --> 00:41:14,000
+ So our analysis will be either based on that last column, so the incremental analysis or we will base ourselves on one cycle for A and one cycle for B. That's what is there in green.
+
+245
+00:41:14,000 --> 00:41:35,000
+ So here we see the equations. I don't think we need to go in a lot of detail. It's what we've seen before. So the thing marked by one is the incremental annual world equation. So we have the minus 5000, the minus 11000, the plus 2000 and the 1900.
+
+246
+00:41:35,000 --> 00:41:58,000
+ So if we solve that one we come up with a rate of return of 12.65. So that's how it works. A second method is to go for the individual project annual world. So we go for A which is minus 8000, A, P, I, 10, minus 3500.
+
+247
+00:41:58,000 --> 00:42:21,000
+ And for the second one it's minus 13000, 2000 and minus 1600. We develop the relationship 0 is AW of B minus AW of A and we solve it and again we end up with 12.65%. So both are correct. It doesn't matter which one you pick.
+
+248
+00:42:21,000 --> 00:42:29,000
+ But please don't forget if you go for the incremental approach that you have to go for the least common multiple.
+
+249
+00:42:29,000 --> 00:42:43,000
+ Now let's have a look at more than two alternatives. You could think that things get very complicated. In fact that's not really the case. We just repeat what we've been doing for two alternatives.
+
+250
+00:42:43,000 --> 00:43:01,000
+ So this is the procedure. So we order alternatives again of course from the smallest to the largest. If you're working with revenue alternatives we calculate the rate of return for each of the alternatives.
+
+251
+00:43:01,000 --> 00:43:15,000
+ The ones with the negative, well not the negative but the rate of return, the less and the more we will eliminate. And the lowest cost alternative we will label as a defender.
+
+252
+00:43:15,000 --> 00:43:28,000
+ And then we will do what we did for two alternatives. We will compare in an incremental analysis the defender with the next lowest cost alternative which then we label challenger.
+
+253
+00:43:28,000 --> 00:43:53,000
+ We set up the role relationship. We will see if the delta rate of return that we get is larger than or more we will eliminate the defender and our challenger will become the new defender and the next on the list will become the challenger.
+
+254
+00:43:53,000 --> 00:44:09,000
+ And so on and we repeat that until we only have one alternative left. For independent projects again everything that has a roar that is larger than or more is interesting.
+
+255
+00:44:09,000 --> 00:44:26,000
+ Okay let's see an example. So we have Caterpillar and more specifically it's about a spare part storage facility they want to build. They have four potential locations in the table. All relevant costs for the four locations are given.
+
+256
+00:44:26,000 --> 00:44:44,000
+ So we have the initial cost, we have the annual cash flows and we have the lifetime which is the same for all. So the question is use an incremental roar analysis with a mar of 10% to determine the best location.
+
+257
+00:44:44,000 --> 00:44:56,000
+ Again the best location here means the economically best because again money is the only thing that we are considering in this case.
+
+258
+00:44:56,000 --> 00:45:22,000
+ Okay so this is the table which is summarizing the computations and this is the outline. So let's have a look step by step. We start with ordering our alternative from the smallest to the largest initial investment which gives us the list CABD.
+
+259
+00:45:22,000 --> 00:45:40,000
+ And then we start our analysis. First defender is the do nothing and the first challenger is the first alternative in our list which is C. We set the power equation so 0 is minus 190,000 plus 19,500 times PA our rate of return 30.
+
+260
+00:45:40,000 --> 00:46:02,000
+ That gives us a PA factor of 9.7436. We can look up in the table for instance and then we see that we have an incremental rate of return of 9.63. Unfortunately this is lower than the mar of 10% so we have to eliminate alternative C.
+
+261
+00:46:02,000 --> 00:46:26,000
+ Defender still is our do nothing but we have a new challenger A. Again we set up our equation which in this case is 0 is minus 200,000 plus 22,000 times PA incremental roar 30 which gives us a roar of 10.49.
+
+262
+00:46:26,000 --> 00:46:39,000
+ Larger than our mar of 10% so that means that we will eliminate our alternative D. It seems to be interesting to take A. So A becomes our new defender and B becomes our challenger.
+
+263
+00:46:39,000 --> 00:47:00,000
+ Incremental cash flows if you have a look at the table B to A means that for the initial cost we have now minus 275,000 minus 200 is minus 75,000 and 35,000 minus 22,000 is 13,000.
+
+264
+00:47:00,000 --> 00:47:17,000
+ So we set up our equation again which is minus 0 is minus 750,000 plus 13,000 times PA of course our roar that we are after 30. Now we have a PA factor of 5.7692.
+
+265
+00:47:17,000 --> 00:47:43,000
+ If we check we find in our table for instance we see that we have a rate of return now of 17.28. So that means that definitely it's important to eliminate our defender and to make our challenger the new defender and go for the next in row.
+
+266
+00:47:47,000 --> 00:48:11,000
+ And so we keep repeating those steps until we only have one alternative left and here in this case it's alternative B. So basically this is the same procedure as with two alternatives but we have to repeat it several times and we have the, well, in order to make life maybe a little bit easier we use this dynamic labeling of defender and challenger.
+
+267
+00:48:12,000 --> 00:48:28,000
+ As a roar is an important concept we will have quite some exercises on it. The exercises in the following slides are the ones that we are going to solve in the exercise session. There will also be roar exercises in the workshops.
+
+268
+00:48:28,000 --> 00:48:36,000
+ For instance this case will be covered in the workshops. It will help you to better understand the concept of rate of return.
+
+269
+00:48:37,000 --> 00:48:51,000
+ Ok, that brings us to the last slide in this lecture. So we talked about rate of return. We started with a simple case of a single alternative, a single rate of return.
+
+270
+00:48:51,000 --> 00:49:05,000
+ We talked about how we could compute that rate of return and then we came to the conclusion that sometimes life is not so easy and that we can have multiple roars of return.
+
+271
+00:49:05,000 --> 00:49:13,000
+ So then we saw some procedures, two procedures actually to remove the unwanted roars and end up with the one we want.
+
+272
+00:49:14,000 --> 00:49:28,000
+ Two procedures, the Mir and the Roig. Both procedures need additional information. They do not use the same additional information so we can expect that the results are not identical.
+
+273
+00:49:28,000 --> 00:49:31,000
+ So something we have to keep in mind.
+
+274
+00:49:34,000 --> 00:49:47,000
+ Multiple alternatives. Next logical step of course after one alternative. We started out simple with two alternatives and we explained why an incremental analysis is needed.
+
+275
+00:49:48,000 --> 00:50:06,000
+ We used the present word where we showed the incremental analysis how it works. We also briefly indicated the fact that in fact also here the breakeven concept can be used.
+
+276
+00:50:06,000 --> 00:50:20,000
+ We talked about the roar using an annual word. We had to say a word of warning saying of course you have to be careful if you want to do an annual word with incremental cash flows.
+
+277
+00:50:20,000 --> 00:50:29,000
+ You have to use the least common multiple. If you are using the individual annual words it's fine with one cycle.
+
+278
+00:50:29,000 --> 00:50:44,000
+ And then we went to the case of multiple alternatives that were mutually exclusive. It's a lot more work but in fact what we do is simply repeating the procedure that we used for the two alternatives.
+

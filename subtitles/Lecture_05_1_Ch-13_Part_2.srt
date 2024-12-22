@@ -1,0 +1,284 @@
+1
+00:00:00,000 --> 00:00:05,000
+ Okay, let's continue with the breakeven analysis with more than one alternative
+
+2
+00:00:05,000 --> 00:00:10,000
+ starting with two alternatives that are mutually exclusive
+
+3
+00:00:10,000 --> 00:00:16,000
+ typical example found in almost all books on engineering economy, business economics
+
+4
+00:00:16,000 --> 00:00:21,000
+ is a two alternative breakeven analysis and typically is a make or buy analysis
+
+5
+00:00:21,000 --> 00:00:27,000
+ so we have the choice between making something or buying something
+
+6
+00:00:27,000 --> 00:00:32,000
+ if we buy something we will only have a variable cost, if we make something we will have a fixed cost
+
+7
+00:00:32,000 --> 00:00:37,000
+ and an unvariable cost which obviously will be lower than if we buy it
+
+8
+00:00:37,000 --> 00:00:40,000
+ otherwise it would be a very easy decision
+
+9
+00:00:40,000 --> 00:00:47,000
+ here we have a breakeven value, we see that if we are having an amount that is higher than this breakeven point
+
+10
+00:00:47,000 --> 00:00:53,000
+ it's more interesting to make everything that is below that breakeven point
+
+11
+00:00:53,000 --> 00:00:56,000
+ it's more interesting to buy
+
+12
+00:00:56,000 --> 00:01:03,000
+ okay, maybe a more realistic example
+
+13
+00:01:03,000 --> 00:01:09,000
+ so we are talking about GARGEN, a company that is making home health care appliances
+
+14
+00:01:09,000 --> 00:01:15,000
+ and it's a make or buy decision about a wheelchair lift to be used in a car
+
+15
+00:01:15,000 --> 00:01:19,000
+ well actually it's about one of the parts of that lift
+
+16
+00:01:19,000 --> 00:01:23,000
+ so they can buy that arm, that steel arm
+
+17
+00:01:23,000 --> 00:01:28,000
+ so that means they outsource their production and then the cost is 0.6 per unit
+
+18
+00:01:28,000 --> 00:01:32,000
+ or they can decide to manufacture it in house
+
+19
+00:01:32,000 --> 00:01:37,000
+ then they need two machines, machine A with a cost of 18,000
+
+20
+00:01:37,000 --> 00:01:44,000
+ a life of 4 years and a 2,000 salvage value which will need an overall after 3 years
+
+21
+00:01:44,000 --> 00:01:47,000
+ and that will cost 3,000 dollars
+
+22
+00:01:47,000 --> 00:01:51,000
+ it's an annual operating cost is 6,000 dollars per year
+
+23
+00:01:51,000 --> 00:01:59,000
+ machine B has a 12,000 dollar cost, has a life of 4 years and a minus 500 salvage value
+
+24
+00:01:59,000 --> 00:02:04,000
+ and it's operating cost is 5,000 dollars per year
+
+25
+00:02:04,000 --> 00:02:07,000
+ now have a look at that salvage value, quite interesting
+
+26
+00:02:07,000 --> 00:02:11,000
+ here we have a negative salvage value which means that we don't receive money
+
+27
+00:02:11,000 --> 00:02:17,000
+ but we will have to pay money, they call it carry away cost
+
+28
+00:02:17,000 --> 00:02:22,000
+ so that means that actually we have to pay a company that is coming to pick up our machine
+
+29
+00:02:22,000 --> 00:02:25,000
+ and we have to pay them for that, we do not get any money
+
+30
+00:02:25,000 --> 00:02:34,000
+ also we need operators, we need 4 operators, their cost is 12,5 per hour per operator
+
+31
+00:02:34,000 --> 00:02:40,000
+ and in a normal shift of 8 hours they can make a 1,000 units
+
+32
+00:02:40,000 --> 00:02:42,000
+ so he has to do two things
+
+33
+00:02:43,000 --> 00:02:48,000
+ to compute the number of units to be manufactured each year to justify the make option
+
+34
+00:02:48,000 --> 00:02:54,000
+ and if the company expects to produce 125,000 units per year
+
+35
+00:02:54,000 --> 00:03:02,000
+ and every estimate remains the same, then what is then the maximum capital expense justifiable
+
+36
+00:03:02,000 --> 00:03:08,000
+ so option 1 is outsourced and this is a very simple
+
+37
+00:03:08,000 --> 00:03:16,000
+ it's too very simple, part of the equation that's minus 0.6 times x
+
+38
+00:03:16,000 --> 00:03:20,000
+ x being the number of lifts to be produced per year
+
+39
+00:03:20,000 --> 00:03:26,000
+ for our machine situation, so in-house situation
+
+40
+00:03:26,000 --> 00:03:34,000
+ we have a variable cost and that variable cost is the cost of our operators
+
+41
+00:03:34,000 --> 00:03:37,000
+ which we have there and of course we have the cost of our machines
+
+42
+00:03:37,000 --> 00:03:41,000
+ which is given here for machine B, it's pretty simple
+
+43
+00:03:41,000 --> 00:03:47,000
+ we only have a negative salvage value, we have an initial amount of money we need to invest
+
+44
+00:03:47,000 --> 00:03:50,000
+ and we have our annual operating costs
+
+45
+00:03:50,000 --> 00:03:56,000
+ for the first machine, machine A, we have our initial investment of 18,000
+
+46
+00:03:56,000 --> 00:04:00,000
+ we have our salvage value of 2,000, positive 1 here
+
+47
+00:04:00,000 --> 00:04:09,000
+ we have an annual operating cost of 6,000 and we also have this overhaul that we need to do after 3 years
+
+48
+00:04:09,000 --> 00:04:21,000
+ bringing those together, so bringing these together gives us the second part of our equation
+
+49
+00:04:21,000 --> 00:04:28,000
+ and that equation can also be used to solve the second part of the question
+
+50
+00:04:28,000 --> 00:04:36,000
+ okay, now of course we can have more than two alternatives, we can have three alternatives
+
+51
+00:04:36,000 --> 00:04:44,000
+ a typical example here is conceptualized in the right part
+
+52
+00:04:44,000 --> 00:04:47,000
+ it's a choice between the appropriate level of automation
+
+53
+00:04:47,000 --> 00:04:52,000
+ what you see here is, this is a throughput, so basically it's the number of operations that you do
+
+54
+00:04:52,000 --> 00:05:00,000
+ for instance in a mechanical workshop or in a warehouse
+
+55
+00:05:00,000 --> 00:05:07,000
+ this is the cost, if you have a manual system, well starting costs are pretty low
+
+56
+00:05:07,000 --> 00:05:13,000
+ but variable cost is pretty high because each time that our throughput is increasing
+
+57
+00:05:13,000 --> 00:05:19,000
+ we will have to hire new people and that's rather expensive
+
+58
+00:05:19,000 --> 00:05:24,000
+ the other extreme is to go for a fully automated system
+
+59
+00:05:24,000 --> 00:05:33,000
+ which will require quite a steep investment but then a rather low variable cost
+
+60
+00:05:33,000 --> 00:05:37,000
+ so then the question is what is the most interesting situation
+
+61
+00:05:37,000 --> 00:05:42,000
+ and you see when we have a low throughput we favor the manual one
+
+62
+00:05:42,000 --> 00:05:46,000
+ if you have a very high throughput we go for a fully automated one
+
+63
+00:05:46,000 --> 00:05:53,000
+ this is a conceptual picture, this is a picture that is actually made by ABB
+
+64
+00:05:53,000 --> 00:06:05,000
+ about robots, so what they are comparing is the systems, manual assembly, human robot collaboration
+
+65
+00:06:05,000 --> 00:06:10,000
+ so called co-bots, robotic automation or fixed automation
+
+66
+00:06:10,000 --> 00:06:13,000
+ and we have the production volume, we have the cost
+
+67
+00:06:13,000 --> 00:06:19,000
+ and what you see is that with a very low production volume manual still seems to be the most interesting one
+
+68
+00:06:19,000 --> 00:06:25,000
+ if you go for a very large production volume then probably fixed automation is the best
+
+69
+00:06:25,000 --> 00:06:30,000
+ and in between we have a human robot co-bot zone and a robot zone
+
+70
+00:06:30,000 --> 00:06:37,000
+ so the breakeven is providing insight in these things
+
+71
+00:06:37,000 --> 00:06:45,000
+ we will not talk about Excel if you are interested you can go for Excel yourself
+

@@ -1,0 +1,404 @@
+1
+00:00:00,000 --> 00:00:06,000
+ Now let's have a look at the real-life case study about an underground pipeline.
+
+2
+00:00:06,000 --> 00:00:10,000
+ The case is taken from the American Institute for Chemical Engineers.
+
+3
+00:00:10,000 --> 00:00:12,000
+ What is the problem at hand?
+
+4
+00:00:12,000 --> 00:00:25,000
+ A company has an underground pipeline and they are afraid of potential leakages of flammable and toxic materials in these old pipelines.
+
+5
+00:00:25,000 --> 00:00:46,000
+ So they were thinking about alternatives and alternatives could be to do nothing, hope that nothing happens, to replace the old pipeline or to install valves or not to use pipelines at all and to use trucks to transport the liquids.
+
+6
+00:00:47,000 --> 00:01:10,000
+ So a first brainstorm gave that list of alternatives but a feasibility check of it already eliminated this one, the truck, because there would be a need for too many trucks going up and down so that's not feasible.
+
+7
+00:01:10,000 --> 00:01:13,000
+ Okay, so that's our filter that we talked about.
+
+8
+00:01:13,000 --> 00:01:23,000
+ So we start with the brainstorm session here and for the further analysis we will only pick the ones that are feasible or look feasible at first sight.
+
+9
+00:01:23,000 --> 00:01:29,000
+ Then we have to think about our decision situation, what do we need to take into account?
+
+10
+00:01:29,000 --> 00:01:37,000
+ Here you see, well, we have a risk of pipeline failure, whether or not the failure would result in a slow leak or a rupture.
+
+11
+00:01:37,000 --> 00:01:41,000
+ What about the amount of chemicals released during such a failure?
+
+12
+00:01:41,000 --> 00:01:47,000
+ The risk of ignition, is there a rupture because we are talking about flammable liquids?
+
+13
+00:01:47,000 --> 00:02:00,000
+ And then the cost to clean up after a release, toxic material and we have to clean up after, well, there was a spill.
+
+14
+00:02:00,000 --> 00:02:03,000
+ Okay, now what are the concerns?
+
+15
+00:02:03,000 --> 00:02:09,000
+ Let's think about, well, the cost of modifying the pipeline, the cost of cleaning up.
+
+16
+00:02:09,000 --> 00:02:21,000
+ We could be concerned about the workers safety, about public safety or our image that public is concerned about, well, having a pipeline underground with these dangerous liquids going into it.
+
+17
+00:02:21,000 --> 00:02:26,000
+ Now here we decided or rather the company decided to only look at the cost.
+
+18
+00:02:26,000 --> 00:02:34,000
+ So a pure economic decision in the text, it's called net present value, that's what we call present worth.
+
+19
+00:02:34,000 --> 00:02:39,000
+ We know that if we want to do an investment analysis, we will need some more information.
+
+20
+00:02:39,000 --> 00:02:45,000
+ We assume that we will work with a horizon of 10 years.
+
+21
+00:02:45,000 --> 00:02:49,000
+ We will have to work with expected values.
+
+22
+00:02:49,000 --> 00:02:55,000
+ The salvage value of the old pipeline is zero after 10 years.
+
+23
+00:02:55,000 --> 00:03:11,000
+ And we assume, which is not technically correct, but we assume that the probability of having an ignition and the cost of fire is not a function of the amount of chemicals released, which is not realistic, but that's what we assume here.
+
+24
+00:03:12,000 --> 00:03:17,000
+ OK, here again, we will make use of an influence diagram.
+
+25
+00:03:17,000 --> 00:03:26,000
+ So we have our value model, which here is a net present value of the total cost, present worth.
+
+26
+00:03:26,000 --> 00:03:31,000
+ These are the choices that we have to make.
+
+27
+00:03:31,000 --> 00:03:34,000
+ Do nothing, replace the pipeline or insert faults.
+
+28
+00:03:34,000 --> 00:03:43,000
+ OK, now what are the things that make up our total costs?
+
+29
+00:03:43,000 --> 00:03:52,000
+ We will have a cleanup cost, can have an influence, the cost of a fire, the cost of pipeline action and the value of the remaining life of the pipeline.
+
+30
+00:03:53,000 --> 00:04:05,000
+ These value measures are determined by the type of failure in the quantity released, cleanup cost, ignition, years until failure.
+
+31
+00:04:05,000 --> 00:04:13,000
+ And we also have an influence, of course, from this on these things, on the quantity release.
+
+32
+00:04:13,000 --> 00:04:17,000
+ Well, the type of failure, we have nothing to do, but these things are influence.
+
+33
+00:04:17,000 --> 00:04:19,000
+ So we have an influence.
+
+34
+00:04:19,000 --> 00:04:22,000
+ Now we're ready to do some computations.
+
+35
+00:04:22,000 --> 00:04:41,000
+ We have our value function, which is here a cost function with components, pipeline action, cleanup, fire, value of remaining life, our salvage value and the cost of cleanup is determined by
+
+36
+00:04:43,000 --> 00:04:47,000
+ the cost per gallon times the amount of gallons that is released.
+
+37
+00:04:47,000 --> 00:05:04,000
+ Interesting in the data collection is that part of our data we can consider to be certain, deterministic, another type of data or another number of data points of parameters or not deterministic.
+
+38
+00:05:04,000 --> 00:05:06,000
+ So we have some probability.
+
+39
+00:05:06,000 --> 00:05:13,000
+ OK, now we will first take the nominal scenario.
+
+40
+00:05:13,000 --> 00:05:21,000
+ So we are calculating the expected value and we see that here we see the outcome.
+
+41
+00:05:21,000 --> 00:05:27,000
+ Now, if you carry out the sensitivity analysis, we will visualize it in a tornado diagram.
+
+42
+00:05:27,000 --> 00:05:31,000
+ Tornado diagram is an interesting visualization.
+
+43
+00:05:31,000 --> 00:05:34,000
+ We will see another example later on.
+
+44
+00:05:34,000 --> 00:05:36,000
+ What is the tornado diagram?
+
+45
+00:05:36,000 --> 00:05:56,000
+ A tornado diagram is a diagram that is showing us the nominal situation and then is taking on the variables one by one and we compute their impact from the lowest value, the highest value and see how large the impact is.
+
+46
+00:05:56,000 --> 00:06:01,000
+ The one with the largest impact comes on top of this graph.
+
+47
+00:06:01,000 --> 00:06:15,000
+ The other one, the one with the lowest impact goes for the magnitude of impact in terms of magnitude of total cost comes at the bottom.
+
+48
+00:06:15,000 --> 00:06:18,000
+ Not only that is interesting, it's also interesting.
+
+49
+00:06:18,000 --> 00:06:24,000
+ That's what's here is whether or not that would change our decision.
+
+50
+00:06:24,000 --> 00:06:43,000
+ And here you see that, for instance, you see clearly that the decision will change if that value of the parameter years until failure is on the lowest value or nominal or higher value.
+
+51
+00:06:44,000 --> 00:06:56,000
+ Now probabilistic phase, we will build our decision tree taking into account probabilities and then we see that we have the lowest value here for insert faults.
+
+52
+00:06:56,000 --> 00:07:01,000
+ We can do some more risk profiles, but let's skip that for the moment.
+
+53
+00:07:01,000 --> 00:07:08,000
+ We can compute the value of information, the value of control.
+
+54
+00:07:08,000 --> 00:07:13,000
+ There's some information in the text about it, but it's not complete to do the computations.
+
+55
+00:07:13,000 --> 00:07:17,000
+ But let's assume that they did not make any mistakes.
+
+56
+00:07:17,000 --> 00:07:21,000
+ So what are the conclusions that we can draw from this rough study?
+
+57
+00:07:21,000 --> 00:07:31,000
+ If immediate action is required and there's no possibility for further study, then we would install the valves.
+
+58
+00:07:31,000 --> 00:07:41,000
+ If no intermediate action is necessary, we could try to obtain more information on the failure probability of the current pipeline, which would tell us something about the years to failure.
+
+59
+00:07:41,000 --> 00:07:46,000
+ And we know that the maximum cost for that is 111,000.
+
+60
+00:07:46,000 --> 00:07:53,000
+ We could also consider a monitoring system to limit the slow leak.
+
+61
+00:07:53,000 --> 00:08:01,000
+ And the maximum cost for that, as we just computed, is 1.2 million.
+
+62
+00:08:01,000 --> 00:08:06,000
+ Now, what do we do in real life?
+
+63
+00:08:06,000 --> 00:08:13,000
+ Well, if no immediate action is required, so this is what we saw from our study, this is what the company in question did.
+
+64
+00:08:13,000 --> 00:08:25,000
+ So as no immediate action was required, they ordered an ultrasonic study of the current pipeline.
+
+65
+00:08:25,000 --> 00:08:29,000
+ It only costed 20,000, so that's fine.
+
+66
+00:08:29,000 --> 00:08:33,000
+ That's less than what we had here.
+
+67
+00:08:33,000 --> 00:08:36,000
+ And they fed that into the model.
+
+68
+00:08:36,000 --> 00:08:40,000
+ The monitoring system they found quite interesting.
+
+69
+00:08:40,000 --> 00:08:42,000
+ And they added to the list of feasibility.
+
+70
+00:08:42,000 --> 00:08:47,000
+ So now they have four alternatives to decide instead of three.
+
+71
+00:08:47,000 --> 00:08:51,000
+ They tried to refine the probabilities on the type of failure.
+
+72
+00:08:51,000 --> 00:08:54,000
+ Also, that information was fed into the model.
+
+73
+00:08:54,000 --> 00:09:02,000
+ And they were thinking of an early warning system so that they could reduce some of the uncertainty.
+
+74
+00:09:02,000 --> 00:09:04,000
+ Also, that was fed to the model.
+
+75
+00:09:04,000 --> 00:09:10,000
+ And then everything could be updated and the best alternative could be selected.
+
+76
+00:09:10,000 --> 00:09:16,000
+ Best, again, here we are talking about euros or in this case dollars.
+
+77
+00:09:16,000 --> 00:09:22,000
+ So, for instance, worker safety or image were not considered.
+
+78
+00:09:22,000 --> 00:09:28,000
+ I think it's a nice case study showing that decision trees are indeed used.
+
+79
+00:09:28,000 --> 00:09:34,000
+ Also showing again the use of something like an influence diagram and a tornado diagram.
+
+80
+00:09:34,000 --> 00:09:40,000
+ Now, about this tornado diagram, why is it so nice?
+
+81
+00:09:40,000 --> 00:09:44,000
+ I think it's nice because it's visualizing the sensitivity analysis.
+
+82
+00:09:44,000 --> 00:09:47,000
+ And this is taken from a PhD study.
+
+83
+00:09:47,000 --> 00:09:53,000
+ So these are the parameters that are considered for sensitivity testing.
+
+84
+00:09:53,000 --> 00:10:04,000
+ They are changed one by one and then they are displayed in impact of change in they bring to the nominal scenario.
+
+85
+00:10:04,000 --> 00:10:11,000
+ Maybe something here that I should have mentioned also is that we assume that these are independent.
+
+86
+00:10:11,000 --> 00:10:16,000
+ So we change them one by one and we assume that these parameters are independent.
+
+87
+00:10:16,000 --> 00:10:22,000
+ This is a clear requirement.
+
+88
+00:10:22,000 --> 00:10:25,000
+ This is another example.
+
+89
+00:10:25,000 --> 00:10:33,000
+ Cost effectiveness of a national telemedicine diabetic retinopathy screening program in Singapore.
+
+90
+00:10:33,000 --> 00:10:38,000
+ We will talk about cost effectiveness analysis when we have the chapter on cost benefit.
+
+91
+00:10:38,000 --> 00:10:45,000
+ Here also we have a tornado diagram and here this is the incremental effectiveness ratio.
+
+92
+00:10:45,000 --> 00:10:50,000
+ So you see it's actually something that is quite often used.
+
+93
+00:10:50,000 --> 00:10:54,000
+ Okay, then we are at the end of the chapter.
+
+94
+00:10:54,000 --> 00:10:56,000
+ These are the exercises.
+
+95
+00:10:56,000 --> 00:11:05,000
+ As usual, we will solve them by hand later on.
+
+96
+00:11:05,000 --> 00:11:09,000
+ There's a sensitivity analysis to the economic environment study.
+
+97
+00:11:09,000 --> 00:11:12,000
+ And this is what a longer exercise.
+
+98
+00:11:12,000 --> 00:11:16,000
+ Maybe you can have a look at it and for once you can neglect the time value of money.
+
+99
+00:11:16,000 --> 00:11:18,000
+ But that's very exceptional.
+
+100
+00:11:18,000 --> 00:11:26,000
+ But the purpose of this exercise is to show again how the decision tree system works.
+
+101
+00:11:26,000 --> 00:11:31,000
+ Okay, so that is the end of this chapter.
+
