@@ -29,7 +29,7 @@ def extract_filename_from_url(url):
 
 # Transcribe audio function
 def transcribe_audio(file_path_or_bytesio):
-    model = whisper.load_model("medium")  # Choose model based on your needs
+    model = whisper.load_model("turbo")  # Choose model based on your needs
     print("Model loaded successfully.")
     
     if isinstance(file_path_or_bytesio, BytesIO):
