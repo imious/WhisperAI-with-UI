@@ -1,5 +1,5 @@
-gradio==5.9.1
-whisper==1.1.10
+gradio
+whisper
 BeaEnginePython==3.1.0
 capstone==5.0.3
 cerealizer==0.8.4
@@ -22,8 +22,6 @@ pandas==2.2.3
 py==1.11.0
 pyglet==2.0.20
 PyOpenGL==3.1.7
-PyQt4==4.11.4
-PyQt5==5.15.11
 PySide==1.2.4
 Pyside==1.2.4
 PySide2==5.15.2.1
