@@ -41,9 +41,9 @@ def extract_filename_from_url(url):
     return filename
 
 # Transcribe audio function
-def transcribe_audio(file_path_or_bytesio):
-    model = whisper.load_model("turbo")  # Choose model based on your needs
-    print("Model loaded successfully.")
+def transcribe_audio(file_path_or_bytesio, model_name):
+    model = whisper.load_model(model_name)  # Load selected model
+    print(f"Model '{model_name}' loaded successfully.")
     
     if isinstance(file_path_or_bytesio, BytesIO):
         with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as tmp_file:
@@ -83,7 +83,7 @@ def save_subtitles(segments, file_name):
     return srt_filename
 
 # Main function to generate files
-def generate_files(audio_input, url_input):
+def generate_files(audio_input, url_input, model_name):
     print("Transcribing...")
     if url_input:
         response = requests.get(url_input)
@@ -97,7 +97,7 @@ def generate_files(audio_input, url_input):
         return "No audio file or URL provided."
     
     file_name = file_name or "subtitle"  # Fallback name if none found
-    transcription, segments = transcribe_audio(audio_file if isinstance(audio_file, BytesIO) else audio_input)
+    transcription, segments = transcribe_audio(audio_file if isinstance(audio_file, BytesIO) else audio_input, model_name)
     txt_filename = save_transcription(transcription, file_name)
     srt_filename = save_subtitles(segments, file_name)
     return txt_filename, srt_filename
@@ -109,13 +109,19 @@ with gr.Blocks() as demo:# type: ignore
         audio_input = gr.Audio(type="filepath", label="Upload Audio File")# type: ignore
         url_input = gr.Textbox(label="Or enter an audio URL", placeholder="Enter audio file URL here...")# type: ignore
     with gr.Row():# type: ignore
+        model_dropdown = gr.Dropdown(
+            choices=["tiny", "base", "small", "medium", "large-v3", "turbo"],
+            value="turbo",
+            label="Select Whisper Model"
+        )
+    with gr.Row():# type: ignore
         output_txt = gr.File(label="Download Transcription (.txt)")# type: ignore
         output_srt = gr.File(label="Download Subtitles (.srt)")# type: ignore
     transcribe_button = gr.Button("Transcribe")# type: ignore
 
     transcribe_button.click(
         generate_files,
-        inputs=[audio_input, url_input],
+        inputs=[audio_input, url_input, model_dropdown],
         outputs=[output_txt, output_srt]
     )
     
