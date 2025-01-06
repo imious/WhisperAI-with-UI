@@ -6,6 +6,10 @@ from urllib.parse import parse_qs, urlparse, unquote
 from io import BytesIO
 import tempfile
 
+# Set up local subtitles folder
+SUBTITLES_FOLDER = "subtitles"
+os.makedirs(SUBTITLES_FOLDER, exist_ok=True)
+
 # Timestamp formatting function
 def format_timestamp(seconds):
     milliseconds = int((seconds % 1) * 1000)
@@ -28,7 +32,7 @@ def extract_filename_from_url(url):
     return filename
 
 # Transcribe audio function
-def transcribe_audio(file_path_or_bytesio, model_name):
+def transcribe_audio(file_path_or_bytesio, model_name, language):
     model = whisper.load_model(model_name)  # Load selected model
     print(f"Model '{model_name}' loaded successfully.")
     
@@ -42,13 +46,13 @@ def transcribe_audio(file_path_or_bytesio, model_name):
     else:
         audio = whisper.load_audio(file_path_or_bytesio)
     
-    result = model.transcribe(audio)
+    options = {"language": language if language != "Auto" else None}
+    result = model.transcribe(audio, **options)
     return result["text"], result["segments"]
 
 # Save transcription as text file
 def save_transcription(text, file_name):
-    os.makedirs("subtitles", exist_ok=True)
-    txt_filename = os.path.join("subtitles", file_name + ".txt")
+    txt_filename = os.path.join(SUBTITLES_FOLDER, file_name + ".txt")
     with open(txt_filename, 'w') as f:
         f.write(text)
     print(f"Transcription saved to {txt_filename}")
@@ -56,8 +60,7 @@ def save_transcription(text, file_name):
 
 # Save subtitles in SRT format
 def save_subtitles(segments, file_name):
-    os.makedirs("subtitles", exist_ok=True)
-    srt_filename = os.path.join("subtitles", file_name + ".srt")
+    srt_filename = os.path.join(SUBTITLES_FOLDER, file_name + ".srt")
     with open(srt_filename, 'w') as f:
         for i, segment in enumerate(segments, 1):
             start_time = segment['start']
@@ -72,7 +75,7 @@ def save_subtitles(segments, file_name):
     return srt_filename
 
 # Main function to generate files
-def generate_files(audio_input, url_input, model_name):
+def generate_files(audio_input, url_input, model_name, language):
     print("Transcribing...")
     if url_input:
         response = requests.get(url_input)
@@ -86,7 +89,7 @@ def generate_files(audio_input, url_input, model_name):
         return "No audio file or URL provided."
     
     file_name = file_name or "subtitle"  # Fallback name if none found
-    transcription, segments = transcribe_audio(audio_file if isinstance(audio_file, BytesIO) else audio_input, model_name)
+    transcription, segments = transcribe_audio(audio_file if isinstance(audio_file, BytesIO) else audio_input, model_name, language)
     txt_filename = save_transcription(transcription, file_name)
     srt_filename = save_subtitles(segments, file_name)
     return txt_filename, srt_filename
@@ -103,6 +106,11 @@ with gr.Blocks() as demo:# type: ignore
             value="turbo",
             label="Select Whisper Model"
         )
+        language_dropdown = gr.Dropdown(
+            choices=["Auto", "en", "es", "fr", "de", "zh", "ja", "ko", "ru", "ar"],  # Add more as needed
+            value="Auto",
+            label="Select Language"
+        )
     with gr.Row():# type: ignore
         output_txt = gr.File(label="Download Transcription (.txt)")# type: ignore
         output_srt = gr.File(label="Download Subtitles (.srt)")# type: ignore
@@ -110,7 +118,7 @@ with gr.Blocks() as demo:# type: ignore
 
     transcribe_button.click(
         generate_files,
-        inputs=[audio_input, url_input, model_dropdown],
+        inputs=[audio_input, url_input, model_dropdown, language_dropdown],
         outputs=[output_txt, output_srt]
     )
     
