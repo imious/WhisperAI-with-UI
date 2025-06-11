@@ -6,7 +6,7 @@ from urllib.parse import parse_qs, urlparse, unquote
 from io import BytesIO
 import tempfile
 import re
-import subprocess # Added for ffmpeg
+import subprocess
 
 # Determine if running in Google Colab with Google Drive mounted
 def get_subtitles_path():
@@ -48,6 +48,10 @@ def extract_filename_from_url(url):
             filename = os.path.splitext(path_segments[-1])[0]
         if not filename:
             filename = "transcribed_audio" # Default if no clear filename
+    
+    # Clean up filename for policy/signature parts if they were picked up
+    filename = re.sub(r'\?Policy=.*', '', filename)
+    filename = re.sub(r'\.m3u8$', '', filename) # Remove .m3u8 if still present
     return filename
 
 # Function to download and process M3U8
@@ -66,15 +70,13 @@ def process_m3u8(m3u8_url, output_dir):
     output_audio_path = os.path.join(output_dir, "m3u8_output.mp3")
     
     try:
-        # Use ffmpeg to download and convert M3U8 to MP3
-        # -i: input M3U8 URL
-        # -c:a copy: copy audio stream without re-encoding if possible
-        # -vn: no video
-        # -y: overwrite output file without asking
-        # Note: ffmpeg can directly handle M3U8 to MP3 conversion
+        # **Crucial change: Allow HTTPS protocol for HLS segments**
+        # -protocol_whitelist: Defines allowed protocols.
+        # file,http,https,tcp,tls,crypto are commonly needed for M3U8 with HTTPS segments.
         command = [
             'ffmpeg',
-            '-i', m3u3_url,
+            '-protocol_whitelist', 'file,http,https,tcp,tls,crypto', # Added whitelist
+            '-i', m3u8_url, # Fixed typo from m3u3_url to m3u8_url
             '-vn', # no video
             '-c:a', 'libmp3lame', # encode to mp3, requires libmp3lame
             '-q:a', '2', # VBR quality for MP3
@@ -95,11 +97,12 @@ def process_m3u8(m3u8_url, output_dir):
             
     except subprocess.CalledProcessError as e:
         print(f"FFmpeg Error during M3U8 processing: {e.stderr}")
-        raise gr.Error(f"Failed to process M3U8: {e.stderr}")
+        # Capture stdout as well for more context
+        print(f"FFmpeg stdout (on error): {e.stdout}")
+        raise gr.Error(f"Failed to process M3U8: {e.stderr}. Check console for more details.")
     except Exception as e:
         print(f"General error processing M3U8: {e}")
-        raise gr.Error(f"An error occurred while processing M3U8: {e}")
-
+        raise gr.Error(f"An error occurred while processing M3U8: {e}. Check console for more details.")
 
 # Transcribe audio function
 def transcribe_audio(file_path_or_bytesio, model_name, language):
@@ -108,13 +111,16 @@ def transcribe_audio(file_path_or_bytesio, model_name, language):
     
     # Handle BytesIO for direct URL downloads (non-M3U8)
     if isinstance(file_path_or_bytesio, BytesIO):
+        # When BytesIO, it means it's a direct audio/video file downloaded by requests.get
+        # The original whisper.load_audio expects a file path, so we write to a temp file.
         with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as tmp_file:
             tmp_file.write(file_path_or_bytesio.read())
             tmp_file_path = tmp_file.name
-        print(f"Temporary file created: {tmp_file_path}")
+        print(f"Temporary file created from BytesIO: {tmp_file_path}")
         audio = whisper.load_audio(tmp_file_path)
         os.remove(tmp_file_path)
-    else: # This path will now also be used for processed M3U8 files
+    else: # This path will now also be used for processed M3U8 files (which are file paths)
+        print(f"Loading audio from file path: {file_path_or_bytesio}")
         audio = whisper.load_audio(file_path_or_bytesio)
     
     options = {"language": language if language != "Auto" else None}
@@ -153,18 +159,31 @@ def generate_files(file_input, url_input, model_name, language):
     file_name = "transcribed_audio" # Default fallback
     
     if url_input:
-        if url_input.endswith('.m3u8'):
-            print("Detected M3U8 URL.")
+        # Use urlparse to inspect the path and query more robustly
+        parsed_url = urlparse(url_input)
+        
+        # Check if the path part or a query parameter suggests it's an M3U8
+        # The key is to check if the *base* of the URL is M3U8, even with query params
+        if parsed_url.path.endswith('.m3u8') or (parsed_url.query and 'm3u8' in url_input.lower()):
+            print("Detected M3U8 URL (based on path or query).")
             # Create a temporary directory for M3U8 processing
             with tempfile.TemporaryDirectory() as tmp_dir:
-                audio_for_whisper = process_m3u8(url_input, tmp_dir)
-                file_name = extract_filename_from_url(url_input) or "m3u8_stream"
+                try:
+                    audio_for_whisper = process_m3u8(url_input, tmp_dir)
+                    file_name = extract_filename_from_url(url_input) or "m3u8_stream"
+                except Exception as e:
+                    return None, None # Error already handled by gr.Error in process_m3u8
         else:
-            print("Detected standard URL.")
-            response = requests.get(url_input)
-            audio_for_whisper = BytesIO(response.content)
-            print("Audio downloaded from the URL.")
-            file_name = extract_filename_from_url(url_input) or "url_audio"
+            print("Detected standard URL (non-M3U8).")
+            try:
+                response = requests.get(url_input, stream=True) # Use stream=True for large files
+                response.raise_for_status() # Raise an exception for HTTP errors
+                audio_for_whisper = BytesIO(response.content)
+                print("Audio downloaded from the URL.")
+                file_name = extract_filename_from_url(url_input) or "url_audio"
+            except requests.exceptions.RequestException as e:
+                gr.Error(f"Failed to download audio from URL: {e}")
+                return None, None
     elif file_input:
         audio_for_whisper = file_input.name
         file_name = os.path.splitext(os.path.basename(audio_for_whisper))[0]
@@ -175,12 +194,17 @@ def generate_files(file_input, url_input, model_name, language):
     # Ensure a file name is set
     file_name = file_name or "subtitle"
 
-    transcription, segments = transcribe_audio(audio_for_whisper, model_name, language)
-    txt_filename = save_transcription(transcription, file_name)
-    srt_filename = save_subtitles(segments, file_name)
-    
+    try:
+        transcription, segments = transcribe_audio(audio_for_whisper, model_name, language)
+        txt_filename = save_transcription(transcription, file_name)
+        srt_filename = save_subtitles(segments, file_name)
+    except Exception as e:
+        gr.Error(f"Transcription failed: {e}. Ensure the audio file is valid.")
+        txt_filename = None
+        srt_filename = None
+
     # If audio_for_whisper was a temporary file from M3U8, clean it up
-    if isinstance(audio_for_whisper, str) and "m3u8_output.mp3" in audio_for_whisper:
+    if isinstance(audio_for_whisper, str) and "m3u8_output.mp3" in audio_for_whisper and os.path.exists(audio_for_whisper):
         try:
             os.remove(audio_for_whisper)
             print(f"Cleaned up temporary M3U8 output file: {audio_for_whisper}")
@@ -194,7 +218,7 @@ with gr.Blocks() as demo:  # type: ignore
     gr.Markdown("# Audio Transcription and Subtitle Generation")  # type: ignore
     with gr.Row():  # type: ignore
         file_input = gr.File(label="Upload File (any type)", file_types=None)  # type: ignore
-        url_input = gr.Textbox(label="Or enter an audio/video URL (e.g., MP3, WAV, M3U8)", placeholder="Enter audio/video file URL here...")  # type: ignore
+        url_input = gr.Textbox(label="Or enter an audio/video URL (e.g., MP3, WAV, M3U8, or direct link to TS/MP4)", placeholder="Enter audio/video file URL here...")  # type: ignore
     with gr.Row():  # type: ignore
         model_dropdown = gr.Dropdown(
             choices=["tiny", "base", "small", "medium", "large-v3", "turbo"],
