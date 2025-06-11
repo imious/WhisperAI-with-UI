@@ -3,4 +3,4 @@ whisper
 openai_whisper==20240930
 pandas==2.2.3
 websockets==11.0.3
-
+m3u8
